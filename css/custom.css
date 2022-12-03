@@ -8,6 +8,7 @@ filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
 _filter:none;
 }
 
+
 /* 页脚与头图透明 */
 #footer {
   background: transparent !important;
@@ -172,6 +173,16 @@ url('/fonts/iconfont.svg#iconfont') format('svg');
     top: -8px
 }
 
+<style>
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+</style>
 /*ICON图标*/
 .iconfont {
   font-family: "iconfont" !important;
