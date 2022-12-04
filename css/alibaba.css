@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Alimama_ShuHeiTi_Bold";font-weight: 700;src: url("/fonts/Alimama_ShuHeiTi_Bold.woff2") format("woff2"),
-  url("/fonts/Alimama_ShuHeiTi_Bold.woff") format("woff");
+  font-family: 'tencent';
   font-display: swap;
+  src: url('/fonts/tencent.ttf') format("truetype");
 }
