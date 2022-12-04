@@ -5,7 +5,7 @@ hexo.extend.generator.register('random', function (locals) {
         if (post.random !== false) posts.push(post.path)
     }
     return {
-        path: config.path || '/js/random.js',
-        data: `var posts=${JSON.stringify(posts)};function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};`
+        path: config.path || 'js/random.js',
+        data: `var posts=${JSON.stringify(posts)};function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};`
     }
 })
