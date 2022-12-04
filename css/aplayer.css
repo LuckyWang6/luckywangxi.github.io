@@ -1,3 +1,4 @@
+
 /* 音乐播放器 */
 
 .aplayer.aplayer-narrow .aplayer-body,
@@ -21,7 +22,7 @@
 #nav-music {
   display: flex;
   align-items: center;
-  z-index: 9;
+  z-index: 1000;
   position: fixed;
   bottom: 20px;
   left: 20px;
