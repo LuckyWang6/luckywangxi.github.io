@@ -176,7 +176,7 @@
 #about-page .about-statistic {
   min-height: 380px;
   width: 39%;
-  background: url(https://image.anzhiy.cn/adminuploads/1/2022/09/23/632d634f8376d.jpg) no-repeat top;
+  background: url(https://cdn.wangxi.online/img/632d634f8376d.jpg) no-repeat top;
   background-size: cover;
   color: var(--anzhiyu-white);
   overflow: hidden;
@@ -335,7 +335,7 @@
 }
 
 .author-content-item.map {
-  background: url(/img/20221127155643.png) no-repeat center;
+  background: url(https://cdn.wangxi.online/img/20221127155643.png) no-repeat center;
   min-height: 160px;
   max-height: 400px;
   position: relative;
@@ -346,7 +346,7 @@
   transition: 1s ease-in-out;
 }
 [data-theme="dark"] .author-content-item.map {
-  background: url(/img/20221127155643.png) no-repeat center;
+  background: url(https://cdn.wangxi.online/img/20221127155643.png) no-repeat center;
   background-size: 100%;
 }
 
@@ -625,7 +625,7 @@
   transition: 2s ease-in-out;
 }
 .author-content-item.game-yuanshen {
-  background: url(/img/teemo-lol-beemo-splash-art-8K-wallpaper-pc-preview.jpg) no-repeat top;
+  background: url(https://cdn.wangxi.online/img/teemo-lol-beemo-splash-art-8K-wallpaper-pc-preview.jpg) no-repeat top;
   background-size: cover;
   min-height: 300px;
   overflow: hidden;
@@ -662,7 +662,7 @@
 
 .author-content-item.historical-drama {
   width: 39%;
-  background: url(/img/BWeLyHqW.jpg) no-repeat top;
+  background: url(https://cdn.wangxi.online/img/BWeLyHqW.jpg) no-repeat top;
   background-size: cover;
   min-height: 100px;
   overflow: hidden;
@@ -678,7 +678,7 @@
 }
 
 .author-content-item.like-technology {
-  background: url(https://image.anzhiy.cn/adminuploads/1/2022/09/24/632f0dd8f33c6.webp) no-repeat;
+  background: url(https://cdn.wangxi.online/img/632f0dd8f33c6.webp) no-repeat;
   background-size: cover;
   min-height: 230px;
   color: var(--anzhiyu-white);

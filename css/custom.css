@@ -251,7 +251,7 @@ url('/fonts/iconfont.svg#iconfont') format('svg');
 
 
 .loading-img {
-  background: url(/img/mmexport1624404594149.jpg) no-repeat center center;
+  background: url(https://cdn.wangxi.online/img/mmexport1624404594149.jpg) no-repeat center center;
   background-size: cover;
 }
 
