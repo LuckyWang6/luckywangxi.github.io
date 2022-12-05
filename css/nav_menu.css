@@ -364,7 +364,7 @@ center#name-container {
   margin: 8px 0 0 16px;
   transition: 0.3s;
 }
-.back-home-button .back-menu-list:before {
+.back-home-button .back-menu-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
