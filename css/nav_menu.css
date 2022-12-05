@@ -415,6 +415,7 @@ center#name-container {
 #page-header #nav .back-home-button {
   cursor: pointer;
   position: relative;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 1300px) {
@@ -424,6 +425,7 @@ center#name-container {
 }
 .back-home-button .back-menu-list .back-menu-item:hover .back-menu-item-text {
   color: var(--anzhiyu-white);
+  flex-wrap: wrap;
 }
 .back-menu-item-icon.loading img {
   width: 25px;
@@ -441,11 +443,13 @@ center#name-container {
   align-items: center;
   transition: 0.3s;
   white-space: nowrap;
+  flex-wrap: wrap;
 }
 
 #page-header #nav #menus .nav-button.long a.totopbtn:hover {
   border-radius: 35px;
   height: 30px;
+  flex-wrap: wrap;
 }
 
 #nav #search-button {
@@ -454,6 +458,7 @@ center#name-container {
 #page-header #nav .nav-button {
   margin-left: 0.5rem;
   padding: 0;
+  flex-wrap: wrap;
 }
 #page-header:not(.is-top-bar) #nav-totop a {
   display: none;
