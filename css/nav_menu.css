@@ -370,7 +370,8 @@ center#name-container {
   flex-wrap: wrap;
   width: 340px;
   justify-content: space-between;
-  text-algin: normal;
+  align-items: center;
+
 }
 }
 .back-home-button .back-menu-list::before {
