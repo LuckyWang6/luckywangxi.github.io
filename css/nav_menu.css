@@ -360,7 +360,7 @@ center#name-container {
   display: flex;
   flex-direction: column;
 }
-.back-home-button .back-menu-list-group .back-menu-list-title {
+.back-home-button .back-menu-list-group:before .back-menu-list-title {
   margin: 8px 0 0 16px;
   transition: 0.3s;
 }
