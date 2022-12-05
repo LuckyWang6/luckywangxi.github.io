@@ -366,14 +366,10 @@ center#name-container {
 }
 .back-home-button .back-menu-list {
   display: flex;
-  width: 35px;
-  height: 35px;
-  padding: 0!important;
-  align-items: center;
-  justify-content: center;
-  margin-right: 4px;
-  transition: .3s;
-  border-radius: 8px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 340px;
+  justify-content: space-between;
 
 }
 }
