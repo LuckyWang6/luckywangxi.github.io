@@ -369,6 +369,7 @@ center#name-container {
   flex-direction: row;
   flex-wrap: wrap;
   width: 340px;
+  justify-content: normal;
 }
 }
 .back-home-button .back-menu-list::before {
