@@ -372,7 +372,7 @@ center#name-container {
   justify-content: space-between;
 }
 }
-.back-home-button .back-menu-list {
+.back-home-button .back-menu-list:before {
   position: absolute;
   top: -22px;
   left: 0px;
