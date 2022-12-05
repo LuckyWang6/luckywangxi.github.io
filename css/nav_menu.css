@@ -392,9 +392,10 @@ center#name-container {
   display: flex;
   align-items: center;
   margin: 4px 8px;
-  padding: 4px 8px !important;
-  transition: 0.3s;
+  padding: 4px 8px!important;
+  transition: .3s;
   border-radius: 8px;
+  width: 150px;
 }
 .back-home-button .back-menu-list .back-menu-item .back-menu-item-text {
   font-size: var(--global-font-size);
