@@ -340,7 +340,7 @@ center#name-container {
   pointer-events: auto;
   left: 0;
 }
-.back-home-button .back-menu-list-groups:before {
+.back-home-button .back-menu-list-groups {
   position: absolute;
   top: 65px;
   left: 0;
@@ -364,7 +364,7 @@ center#name-container {
   margin: 8px 0 0 16px;
   transition: 0.3s;
 }
-.back-home-button .back-menu-list {
+.back-home-button .back-menu-list:before {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
