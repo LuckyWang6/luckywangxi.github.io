@@ -320,7 +320,7 @@ center#name-container {
   background: var(--anzhiyu-main);
   color: var(--anzhiyu-white) !important;
 }
-.back-home-button {
+.back-home-button:before {
   display: flex;
   width: 35px;
   height: 35px;
