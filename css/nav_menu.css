@@ -358,6 +358,7 @@ center#name-container {
 
 .back-home-button .back-menu-list-group {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 .back-home-button .back-menu-list-group .back-menu-list-title {
