@@ -255,7 +255,7 @@ center#name-container {
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
-  font-family: "ZhuZiAYuanJWD";
+  font-family: "tencent";
 }
 .nav-fixed.nav-visible #name-container {
   transition: 0.3s;
@@ -340,7 +340,7 @@ center#name-container {
   pointer-events: auto;
   left: 0;
 }
-.back-home-button .back-menu-list-groups {
+.back-home-button .back-menu-list-groups:hover {
   position: absolute;
   top: 65px;
   left: 0;
