@@ -366,7 +366,11 @@ center#name-container {
 }
 .back-home-button .back-menu-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 340px;
+  justify-content: space-between;
+}
 }
 .back-home-button .back-menu-list::before {
   position: absolute;
