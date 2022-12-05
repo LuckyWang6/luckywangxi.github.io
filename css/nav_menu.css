@@ -339,10 +339,6 @@ center#name-container {
   top: 55px;
   pointer-events: auto;
   left: 0;
-  display: flex;
-  align-items: center;
-  margin: 4px 8px;
-  padding: 4px 8px !important;
 }
 .back-home-button .back-menu-list-groups {
   position: absolute;
