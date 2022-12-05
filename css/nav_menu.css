@@ -398,7 +398,7 @@ center#name-container {
   white-space: nowrap;
 }
 #nav #blog_name {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   height: 60px;
   display: flex;
   align-items: center;
@@ -408,6 +408,7 @@ center#name-container {
 .back-home-button .back-menu-list .back-menu-item .back-menu-item-icon {
   width: 24px;
   height: 24px;
+  flex-wrap: wrap;
   border-radius: 24px;
   background: var(--anzhiyu-secondbg);
 }
