@@ -358,7 +358,7 @@ center#name-container {
 
 .back-home-button .back-menu-list-group {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .back-home-button .back-menu-list-group .back-menu-list-title {
   margin: 8px 0 0 16px;
