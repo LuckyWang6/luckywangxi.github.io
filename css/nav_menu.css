@@ -358,7 +358,6 @@ center#name-container {
 
 .back-home-button .back-menu-list-group {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 .back-home-button .back-menu-list-group .back-menu-list-title {
@@ -367,7 +366,6 @@ center#name-container {
 }
 .back-home-button .back-menu-list {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 .back-home-button .back-menu-list::before {
@@ -387,7 +385,6 @@ center#name-container {
 }
 .back-home-button .back-menu-list .back-menu-item {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   margin: 4px 8px;
   padding: 4px 8px !important;
