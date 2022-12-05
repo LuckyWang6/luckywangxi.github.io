@@ -398,7 +398,7 @@ center#name-container {
   white-space: nowrap;
 }
 #nav #blog_name {
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   height: 60px;
   display: flex;
   align-items: center;
