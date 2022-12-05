@@ -340,7 +340,7 @@ center#name-container {
   pointer-events: auto;
   left: 0;
 }
-.back-home-button .back-menu-list-groups {
+.back-home-button .back-menu-list-groups:before {
   position: absolute;
   top: 65px;
   left: 0;
