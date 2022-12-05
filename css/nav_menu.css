@@ -340,7 +340,7 @@ center#name-container {
   pointer-events: auto;
   left: 0;
 }
-.back-home-button .back-menu-list-groups:before {
+.back-home-button .back-menu-list-groups {
   position: absolute;
   top: 65px;
   left: 0;
@@ -351,7 +351,7 @@ center#name-container {
   font-size: 12px;
   color: var(--anzhiyu-secondtext);
   box-shadow: var(--anzhiyu-shadow-border);
-  transition: 0s;
+  transition: 0.3s;
   opacity: 0;
   pointer-events: none;
 }
