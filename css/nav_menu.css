@@ -339,6 +339,9 @@ center#name-container {
   top: 55px;
   pointer-events: auto;
   left: 0;
+  align-items: center;
+  margin: 4px 8px;
+  padding: 4px 8px !important;
 }
 .back-home-button .back-menu-list-groups {
   position: absolute;
@@ -354,19 +357,31 @@ center#name-container {
   transition: 0s;
   opacity: 0;
   pointer-events: none;
+  align-items: center;
+  margin: 4px 8px;
+  padding: 4px 8px !important;
 }
 
 .back-home-button .back-menu-list-group {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 4px 8px;
+  padding: 4px 8px !important;
 }
 .back-home-button .back-menu-list-group .back-menu-list-title {
   margin: 8px 0 0 16px;
   transition: 0.3s;
+  align-items: center;
+  margin: 4px 8px;
+  padding: 4px 8px !important;
 }
 .back-home-button .back-menu-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 4px 8px;
+  padding: 4px 8px !important;
 }
 .back-home-button .back-menu-list::before {
   position: absolute;
@@ -375,6 +390,9 @@ center#name-container {
   width: 100%;
   height: 25px;
   content: "";
+  align-items: center;
+  margin: 4px 8px;
+  padding: 4px 8px !important;
 }
 
 .back-home-button .back-menu-list-group:hover .back-menu-list-title {
@@ -428,14 +446,6 @@ center#name-container {
   width: 25px;
 }
 
-.back-menu-list-groups .back-menu-list .back-menu-item {
-  display: flex;
-  align-items: center;
-  margin: 4px 8px;
-  padding: 4px 8px !important;
-  transition: 0.3s;
-  border-radius: 8px;
-}
 
 #page-header #nav #menus .nav-button.long a.totopbtn,
 #page-header #nav #menus .nav-button.long,
