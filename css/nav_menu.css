@@ -328,7 +328,8 @@ center#name-container {
   align-items: center;
   justify-content: center;
   margin-right: 4px;
-  border-radius: 40px;
+  transition: 0.3s;
+  border-radius: 8px;
 }
 
 .back-home-button:hover .back-menu-list-groups {
@@ -354,31 +355,6 @@ center#name-container {
   opacity: 0;
   pointer-events: none;
 }
-* {
-
-* {
-    box-sizing: border-box;
-}
-
-div {
-    display: block;
-}
-
-#nav {
-  position: absolute;
-  top: 0px;
-  z-index: 90;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  align-items: center;
-  padding: 0px 36px;
-  width: 100%;
-  height: 60px;
-  font-size: 1.3em;
-  opacity: 0;
-  transition: all 0.5s ease 0s;
-}
 
 .back-home-button .back-menu-list-group {
   display: flex;
@@ -390,10 +366,7 @@ div {
 }
 .back-home-button .back-menu-list {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 340px;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .back-home-button .back-menu-list::before {
   position: absolute;
