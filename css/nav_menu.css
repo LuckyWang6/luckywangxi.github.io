@@ -351,7 +351,7 @@ center#name-container {
   font-size: 12px;
   color: var(--anzhiyu-secondtext);
   box-shadow: var(--anzhiyu-shadow-border);
-  transition: 0.3s;
+  transition: 0s;
   opacity: 0;
   pointer-events: none;
 }
