@@ -355,6 +355,26 @@ center#name-container {
   pointer-events: none;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+#nav {
+  position: absolute;
+  top: 0px;
+  z-index: 90;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 36px;
+  width: 100%;
+  height: 60px;
+  font-size: 1.3em;
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+}
+
 .back-home-button .back-menu-list-group {
   display: flex;
   flex-direction: column;
