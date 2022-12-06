@@ -370,6 +370,7 @@ center#name-container {
   flex-wrap: wrap;
   width: 340px;
   justify-content: center;
+  align-items: center;
 }
 .back-home-button .back-menu-list::before {
   position: absolute;
