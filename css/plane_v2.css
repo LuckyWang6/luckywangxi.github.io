@@ -10,7 +10,7 @@
     }
 
     #page-header #scroll-down .scroll-down-effects {
-        z-index: 10;
+        z-index: 0;
         width: 40px;
     }
 }
