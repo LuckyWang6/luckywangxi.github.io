@@ -242,6 +242,11 @@ function addLongtabListener(target, callback) {
 
 addLongtabListener(box, popupMenu)
 
+const metingJs = document.querySelector("#nav-music meting-js");
+//判断是否是音乐
+if (metingJs.contains(event.target)) {
+} else {
+}
 
 function addRightMenuClickEvent() {
     $("#menu-backward").on("click", function() {
@@ -310,3 +315,38 @@ function addRightMenuClickEvent() {
         btf.snackbarShow("复制歌曲名称成功", !1, 3e3)
     })
 }
+
+musicToggle: function() {
+        var e = !(0 < arguments.length && void 0 !== arguments[0]) || arguments[0];
+        anzhiyu_musicFirst || (musicBindEvent(),
+        anzhiyu_musicFirst = !0);
+        anzhiyu_musicStretch = anzhiyu_musicPlaying ? (document.querySelector("#nav-music").classList.remove("playing"),
+        document.getElementById("menu-music-toggle").innerHTML = '<i class="fa-solid fa-play"></i><span>播放音乐</span>',
+        document.getElementById("nav-music-hoverTips").innerHTML = "音乐已暂停",
+        document.querySelector("#consoleMusic").classList.remove("on"),
+        anzhiyu_musicPlaying = !1,
+        document.querySelector("#nav-music").classList.remove("stretch"),
+        !1) : (document.querySelector("#nav-music").classList.add("playing"),
+        document.getElementById("menu-music-toggle").innerHTML = '<i class="fa-solid fa-pause"></i><span>暂停音乐</span>',
+        document.querySelector("#consoleMusic").classList.add("on"),
+        anzhiyu_musicPlaying = !0,
+        document.querySelector("#nav-music").classList.add("stretch"),
+        !0),
+        e && document.querySelector("#nav-music meting-js").aplayer.toggle()
+    },
+    musicTelescopic: function() {
+        anzhiyu_musicStretch = anzhiyu_musicStretch ? (document.querySelector("#nav-music").classList.remove("stretch"),
+        !1) : (document.querySelector("#nav-music").classList.add("stretch"),
+        !0)
+    },
+    musicSkipBack: function() {
+        document.querySelector("#nav-music meting-js").aplayer.skipBack()
+    },
+    musicSkipForward: function() {
+        document.querySelector("#nav-music meting-js").aplayer.skipForward()
+    },
+    musicGetName: function() {
+        for (var e = $(".aplayer-title"), t = [], n = e.length - 1; 0 <= n; n--)
+            t[n] = e[n].innerText;
+        return t[0]
+    },
