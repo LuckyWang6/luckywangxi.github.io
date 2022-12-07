@@ -241,3 +241,72 @@ function addLongtabListener(target, callback) {
 }
 
 addLongtabListener(box, popupMenu)
+
+
+function addRightMenuClickEvent() {
+    $("#menu-backward").on("click", function() {
+        window.history.back(),
+        rm.hideRightMenu()
+    }),
+    $("#menu-forward").on("click", function() {
+        window.history.forward(),
+        rm.hideRightMenu()
+    }),
+    $("#menu-refresh").on("click", function() {
+        window.location.reload()
+    }),
+    $("#menu-top").on("click", function() {
+        btf.scrollToDest(0, 500),
+        rm.hideRightMenu()
+    }),
+    $(".menu-link").on("click", rm.hideRightMenu),
+    $("#menu-darkmode").on("click", rm.switchDarkMode),
+    $("#menu-home").on("click", function() {
+        window.location.href = window.location.origin
+    }),
+    $("#menu-randomPost").on("click", function() {
+        toRandomPost()
+    }),
+    $("#menu-commentBarrage").on("click", anzhiyu.switchCommentBarrage),
+    $("#rightmenu-mask").on("click", rm.hideRightMenu),
+    $("#rightmenu-mask").contextmenu(function() {
+        return rm.hideRightMenu(),
+        !1
+    }),
+    $("#menu-translate").on("click", function() {
+        rm.hideRightMenu(),
+        translateInitialization()
+    }),
+    $("#menu-copy").on("click", rm.copyPageUrl),
+    $("#menu-pastetext").on("click", rm.pasteText),
+    $("#menu-copytext").on("click", function() {
+        rm.rightmenuCopyText(selectTextNow),
+        btf.snackbarShow("复制成功，复制和转载请标注本文地址")
+    }),
+    $("#menu-commenttext").on("click", function() {
+        rm.rightMenuCommentText(selectTextNow)
+    }),
+    $("#menu-newwindow").on("click", function() {
+        window.open(domhref),
+        rm.hideRightMenu()
+    }),
+    $("#menu-copylink").on("click", rm.copyLink),
+    $("#menu-downloadimg").on("click", function() {
+        anzhiyu.downloadImage(domImgSrc, "anzhiyu")
+    }),
+    $("#menu-newwindowimg").on("click", function() {
+        window.open(domImgSrc),
+        rm.hideRightMenu()
+    }),
+    $("#menu-copyimg").on("click", function() {
+        rm.writeClipImg(domImgSrc)
+    }),
+    $("#menu-searchBaidu").on("click", rm.searchBaidu),
+    $("#menu-music-toggle").on("click", anzhiyu.musicToggle),
+    $("#menu-music-back").on("click", anzhiyu.musicSkipBack),
+    $("#menu-music-forward").on("click", anzhiyu.musicSkipForward),
+    $("#menu-music-copyMusicName").on("click", function() {
+        rm.rightmenuCopyText(anzhiyu.musicGetName()),
+        btf.snackbarShow("复制歌曲名称成功", !1, 3e3)
+    })
+}
