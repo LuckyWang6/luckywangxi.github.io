@@ -409,6 +409,7 @@ center#name-container {
   align-items: center;
   /* z-index: 102; */
   transition: 0.3s;
+  font-family: tencent;
 }
 .back-home-button .back-menu-list .back-menu-item .back-menu-item-icon {
   width: 24px;
