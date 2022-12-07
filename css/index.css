@@ -3937,7 +3937,7 @@ h1.page-title + .tag-cloud-list {
   content: '';
 }
 #page-header.full_page {
-  height: 0.001388888888889px;
+  height: 300px;
   background-attachment: fixed;
 }
 #page-header.full_page #site-info {
