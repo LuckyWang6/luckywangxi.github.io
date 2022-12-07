@@ -31,7 +31,7 @@
     grid-template-rows: repeat(20, 5vh);
     grid-template-columns: repeat(20, 5vw);
     transform-style: preserve-3d;
-    z-index: 10;
+    z-index: 0;
 }
 
 #drone .trigger:active~.monitor .body {
