@@ -13,7 +13,7 @@
 }
 
 /* 导航栏音乐 */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 0px) {
   #nav-music {
     display: none !important;
   }
