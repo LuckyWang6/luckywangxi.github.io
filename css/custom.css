@@ -401,6 +401,10 @@ i.scroll-down-effects {
     cursor: var(--pointer-cursor),auto!important
 }
 
+.nav-music{
+    cursor: var(--pointer-cursor),auto!important
+}
+
 #pagination a {
     cursor: var(--pointer-cursor),auto!important
 }
