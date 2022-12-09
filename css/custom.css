@@ -359,3 +359,68 @@ url('/fonts/iconfont.svg#iconfont') format('svg');
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-card-border: #42444a;
 }
+
+:root {
+    --default-cursor: url(https://cdn.wangxi.online/img/default.cur);
+    --pointer-cursor: url(https://cdn.wangxi.online/img/pointer.cur)
+}
+
+html {
+    cursor: var(--default-cursor),auto!important
+}
+
+body {
+    cursor: var(--default-cursor),auto!important
+}
+
+#recent-posts>.recent-post-item>.recent-post-info>.article-meta-wrap>.post-meta-date {
+    cursor: var(--default-cursor),auto!important
+}
+
+li::before,ul::before {
+    cursor: var(--default-cursor),auto!important
+}
+
+#pagination span {
+    cursor: var(--default-cursor),auto!important
+}
+
+a,button,canvas,img,select,svg {
+    cursor: var(--pointer-cursor),auto!important
+}
+
+i.scroll-down-effects {
+    cursor: var(--pointer-cursor),auto!important
+}
+
+.reward-button {
+    cursor: var(--pointer-cursor),auto!important
+}
+
+#pagination a {
+    cursor: var(--pointer-cursor),auto!important
+}
+
+.fancybox,.fancybox-button,.fancybox-content,.fancybox__caption,.fancybox__carousel.is-draggable .fancybox__slide,.fancybox__carousel.is-draggable .fancybox__slide .fancybox__content,.fancybox__slide .fancybox__content,.fancybox__thumbs .carousel__slide,.fancybox__viewport {
+    cursor: var(--pointer-cursor),auto!important
+}
+
+#article-container .code-expand-btn,#article-container figure.highlight .highlight-tools .expand,#article-container figure.highlight .highlight-tools .expand~.copy-button {
+    cursor: var(--pointer-cursor),auto!important
+}
+
+.switch-btn,.v[data-class=v] .vbtn,.v[data-class=v] .vicon,.vat,.vcol *,.vcontent.expand,.vemojis * {
+    cursor: var(--pointer-cursor),auto!important
+}
+
+.OwO .OwO-body,.OwO .OwO-body .OwO-bar .OwO-packages li,.OwO .OwO-body .OwO-items .OwO-item,.tk-action-icon,.tk-expand,.tk-pagination-pager,.tk-panel .tk-tab {
+    cursor: var(--pointer-cursor),auto!important
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: var(--pointer-cursor),auto!important
+}
+
+#rightmenu .rightmenu-group .rightmenu-item {
+    cursor: var(--pointer-cursor),auto!important
+}
