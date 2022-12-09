@@ -401,7 +401,7 @@ i.scroll-down-effects {
     cursor: var(--pointer-cursor),auto!important
 }
 
-.aplayer aplayer-withlrc aplayer-withlist aplayer-arrow{
+.anzhiyu.musicToggle(){
     cursor: var(--pointer-cursor),auto!important
 }
 
