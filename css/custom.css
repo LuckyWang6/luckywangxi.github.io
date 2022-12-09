@@ -397,6 +397,10 @@ i.scroll-down-effects {
     cursor: var(--pointer-cursor),auto!important
 }
 
+.back-home-button{
+    cursor: var(--pointer-cursor),auto!important
+}
+
 #pagination a {
     cursor: var(--pointer-cursor),auto!important
 }
