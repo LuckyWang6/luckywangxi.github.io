@@ -401,7 +401,7 @@ i.scroll-down-effects {
     cursor: var(--pointer-cursor),auto!important
 }
 
-.aplayer-bar,.aplayer,.aplayer-bar-wrap,.aplayer-loaded,.aplayer-played,.aplayer-body,.aplayer-withlrc,.aplayer-withlist,.aplayer-arrow,.aplayer-music,.aplayer-title,.aplayer-info,.aplayer-button,.aplayer-play,.playing,.aplayer-pic,.aplayer-controller,.nav-music-hoverTips,.anzhiyu.musicToggle,.playing stretch{
+.aplayer-bar,.aplayer,.aplayer-bar-wrap,.aplayer-loaded,.aplayer-played,.aplayer-body,.aplayer-withlrc,.aplayer-withlist,.aplayer-arrow,.aplayer-music,.aplayer-title,.aplayer-info,.aplayer-button,.aplayer-play,.playing,.aplayer-pic,.aplayer-controller,.music-hoverTips,.anzhiyu.musicToggle{
     cursor: var(--pointer-cursor),auto!important
 }
 
