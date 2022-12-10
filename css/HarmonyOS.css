@@ -1,8 +1,7 @@
 @font-face {
   font-family: 'HarmonyOS';
   font-display: swap;
-  src: url('/fonts/HarmonyOS_Sans_SC_Black.ttf') format("truetype");
-  src: url('/fonts/HarmonyOS_Sans_TC_Black.ttf') format("truetype");
+  src: url('/fonts/HarmonyOS_Sans_Black.ttf') format("truetype");
 }
 
 .iconfont {
