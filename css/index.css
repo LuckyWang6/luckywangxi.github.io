@@ -6258,7 +6258,8 @@ blockquote.pullquote.right {
   --scrollbar-color: #1f1f1f;
   --timeline-bg: #1f1f1f;
 }
-[data-theme='dark'] #web_bg:before,
+[data-theme='dark'] #web_bg,
+[data-theme='dark'] background: $web-bg-dark,
 [data-theme='dark'] #footer:before,
 [data-theme='dark'] #page-header:before {
   position: absolute;
