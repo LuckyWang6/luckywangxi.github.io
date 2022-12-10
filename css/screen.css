@@ -1,9 +1,8 @@
 .layout{
-  max-width:1350px;
+  max-width:1400px;
 }
 .aside-content{
-    max-width:312px;
-    min-width:300px;
+    max-width:300px;
 }
 .recent-posts{
   width:auto
