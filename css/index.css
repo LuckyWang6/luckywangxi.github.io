@@ -6258,8 +6258,9 @@ blockquote.pullquote.right {
   --scrollbar-color: #1f1f1f;
   --timeline-bg: #1f1f1f;
 }
-[data-theme='dark'] #web_bg,
-[data-theme='dark'] background: $web-bg-dark,
+[data-theme='dark'] #web_bg {
+  background: url(https://cdn.wangxi.online/img/night.jpg);
+}
 [data-theme='dark'] #footer:before,
 [data-theme='dark'] #page-header:before {
   position: absolute;
