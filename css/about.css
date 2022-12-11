@@ -773,7 +773,7 @@
     color: var(--anzhiyu-theme);
   }
   #selfInfo-content-year {
-    width: 90px;
+    width: 90px!important;
   }
 }
 
