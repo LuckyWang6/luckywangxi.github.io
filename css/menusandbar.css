@@ -46,6 +46,96 @@ body {
     -webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-color)
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent
+}
+
+input::placeholder {
+    color: var(--font-color)
+}
+
+.table-wrap {
+    overflow-x: scroll;
+    margin: 0 0 20px
+}
+
+table {
+    display: table;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    empty-cells: show
+}
+
+table thead {
+    background: rgba(153,169,191,.1)
+}
+
+table td,table th {
+    padding: 6px 12px;
+    border: 1px solid var(--light-grey);
+    vertical-align: middle
+}
+
+
+::selection {
+    background: #3b70fc;
+    color: #f7f7f7
+}
+
+button {
+    padding: 0;
+    outline: 0;
+    border: none;
+    background: 0 0;
+    cursor: pointer;
+    touch-action: manipulation
+}
+
+a {
+    color: var(--anzhiyu-fontcolor);
+    text-decoration: none;
+    word-wrap: break-word;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+    overflow-wrap: break-word
+}
+
+a:hover {
+    color: #3b70fc
+}
+
+.is-center {
+    text-align: center
+}
+
+.copy-true {
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all
+}
+
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right
+}
+
 :root {
     --hl-color: #eff;
     --hl-bg: #212121;
@@ -57,7 +147,7 @@ body {
     --hlexpand-bg: linear-gradient(180deg, rgba(33,33,33,0.6), rgba(33,33,33,0.9))
 }
 
-/*figure.highlight table {
+figure.highlight table {
     scrollbar-color: var(--hlscrollbar-bg) transparent
 }
 
@@ -111,7 +201,8 @@ figure.highlight pre .coffeescript .title,figure.highlight pre .function,figure.
 
 figure.highlight pre .javascript .function,figure.highlight pre .tag .attr {
     color: #c792ea
-}*/
+}
+
 
 [data-theme=dark] {
     --font-color: rgba(255,255,255,0.7);
@@ -153,6 +244,88 @@ figure.highlight pre .javascript .function,figure.highlight pre .tag .attr {
     --timeline-bg: #1f1f1f
 }
 
+#catalog-bar {
+    border-radius: var(--anzhiyu-border-radius);
+    display: flex;
+    border: var(--anzhiyu-border-radius);
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center
+}
+
+#catalog-bar:hover {
+    border-color: var(--anzhiyu-theme)
+}
+
+#catalog-bar i {
+    line-height: inherit
+}
+
+#catalog-list {
+    margin: 0 .5rem;
+    display: flex;
+    white-space: nowrap;
+    overflow-x: scroll
+}
+
+#catalog-list::-webkit-scrollbar {
+    display: none
+}
+
+.catalog-list-item a {
+    margin: 0rem .2rem;
+    font-weight: 700;
+    color: var(--font-color);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    padding: .1rem .7rem;
+    border-radius: 24px;
+    height: 36px;
+    line-height: 36px
+}
+
+.catalog-list-item {
+    display: flex;
+    align-items: center
+}
+
+.catalog-list-item:hover .notification-tip {
+    color: var(--anzhiyu-main)
+}
+
+.catalog-list-item .notification-tip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    margin-left: .25rem;
+    border-radius: 50%;
+    background-color: var(--anzhiyu-secondbg);
+    padding: 10px;
+    font-size: .8rem;
+    transition: 0s
+}
+
+.catalog-list-item.selected a {
+    background: var(--anzhiyu-lighttext);
+    color: var(--anzhiyu-white)
+}
+
+a.catalog-more {
+    min-width: fit-content;
+    font-weight: 700;
+    color: var(--anzhiyu-fontcolor)
+}
+
+a.catalog-more:hover {
+    color: var(--anzhiyu-theme)
+}
 
 #categoryBar {
     width: 100%;
