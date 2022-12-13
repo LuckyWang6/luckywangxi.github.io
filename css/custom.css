@@ -183,10 +183,22 @@ url('/fonts/iconfont.svg#iconfont') format('svg');
 /*ICON图标*/
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-liuyanzhi:before {
+  content: "\e61d";
+}
+
+.icon-chrome:before {
+  content: "\ea09";
+}
+
+.icon-liuyan-:before {
+  content: "\e60d";
 }
 
 .icon-xiewenzhang:before {
