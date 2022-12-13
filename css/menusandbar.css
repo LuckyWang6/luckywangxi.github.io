@@ -57,7 +57,7 @@ body {
     --hlexpand-bg: linear-gradient(180deg, rgba(33,33,33,0.6), rgba(33,33,33,0.9))
 }
 
-figure.highlight table {
+/*figure.highlight table {
     scrollbar-color: var(--hlscrollbar-bg) transparent
 }
 
@@ -111,7 +111,7 @@ figure.highlight pre .coffeescript .title,figure.highlight pre .function,figure.
 
 figure.highlight pre .javascript .function,figure.highlight pre .tag .attr {
     color: #c792ea
-}
+}*/
 
 [data-theme=dark] {
     --font-color: rgba(255,255,255,0.7);
