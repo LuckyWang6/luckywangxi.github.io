@@ -90,32 +90,7 @@ var anzhiyu = {
       n.setSelectionRange(-1, -1),
       document.getElementById("comment-tips") && document.getElementById("comment-tips").classList.add("show");
   },
-  initIndexEssay: function () {
-    setTimeout(() => {
-      let essay_bar_swiper = new Swiper(".essay_bar_swiper_container", {
-        passiveListeners: true,
-        direction: "vertical",
-        loop: true,
-        autoplay: {
-          disableOnInteraction: true,
-          delay: 3000,
-        },
-        mousewheel: true,
-      });
-
-      let essay_bar_comtainer = document.getElementById("bbtalk");
-      if (essay_bar_comtainer !== null) {
-        essay_bar_comtainer.onmouseenter = function () {
-          essay_bar_swiper.autoplay.stop();
-        };
-        essay_bar_comtainer.onmouseleave = function () {
-          essay_bar_swiper.autoplay.start();
-        };
-      }
-    }, 100);
-  },
 };
 
-anzhiyu.initIndexEssay();
 anzhiyu.changeTimeInEssay();
 anzhiyu.reflashEssayWaterFall();
