@@ -14,7 +14,7 @@
     }
     a = function() {
         var l, a, h, c;
-        (c = document.createElement("div")).innerHTML = i
+        (c = document.createElement("div")).innerHTML = i, 
         i = null,
         (h = c.getElementsByTagName("svg")[0]) && (h.setAttribute("aria-hidden", "true"),
         h.style.position = "absolute",
