@@ -29,7 +29,7 @@
   flex-direction: column;
 }
 .bber-logo {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   line-height: 22px;
   margin-right: 1rem;
   transition: all 0.3s ease 0s;
@@ -63,10 +63,10 @@
 }
 
 /* 文章页H1-H6图标样式效果 */
-.bbTimeList .bber-logo {
+/*.bbTimeList .bber-logo {
   -webkit-animation: rotate 1.6s linear infinite;
   animation: rotate 1.6s linear infinite;
-}
+}*/
 @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotate(0deg);
