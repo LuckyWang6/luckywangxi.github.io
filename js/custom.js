@@ -1,4 +1,4 @@
-var percentFlag = false; // 节流阀
+var percentFlag = true; // 节流阀
 function essayScroll() {
   let a = document.documentElement.scrollTop || window.pageYOffset; // 卷去高度
   const waterfallResult = a % document.documentElement.clientHeight; // 卷去一个视口
