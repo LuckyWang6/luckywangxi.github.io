@@ -1,3 +1,25 @@
+#article-container a:not(.headerlink):not(.cf-friends-link):hover {
+    color: var(--anzhiyu-white);
+    background: var(--anzhiyu-theme);
+    box-shadow: var(--anzhiyu-shadow-lightblack);
+    border-radius: .25em;
+    text-decoration: none;
+}
+
+#article-container a:not(.headerlink):not(.cf-friends-link):not(.tag-Link):hover {
+    border-bottom: solid 2px var(--anzhiyu-lighttext);
+    color: var(--anzhiyu-fontcolor);
+    text-decoration: none;
+}
+
+#post .post-copyright a:not([data-fancybox=gallery]) {
+    font-weight: 500;
+    border-bottom: solid 2px var(--anzhiyu-lighttext);
+    color: var(--anzhiyu-fontcolor);
+    padding: 0 .2em;
+    text-decoration: none;
+}
+
 :root {
     --global-font-size: 17px;
     --global-bg: #fff;
