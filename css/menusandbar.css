@@ -7,26 +7,25 @@
     text-decoration: none;
 }
 
-#article-container a:not(.headerlink):not(.cf-friends-link):not(.tag-Link):hover {
+#article-container a:not(.headerlink):not(.cf-friends-link):hover {
     border-bottom: solid 2px var(--anzhiyu-lighttext);
     color: var(--anzhiyu-fontcolor);
     text-decoration: none;
     border-radius: .25em;
 }
 
-#post .post-copyright a:not([data-fancybox=gallery]) {
+#post #article-container a:not(a[data-fancybox]), #page #article-container a:not(img):not(.flink-list-item>a):not(a[data-fancybox]):not(#cf-container a) {
+    border-bottom: 2px solid var(--anzhiyu-lighttext);
     font-weight: 700;
-    border-bottom: solid 2px var(--anzhiyu-lighttext);
     color: var(--anzhiyu-fontcolor);
     padding: 0 .2em;
     text-decoration: none;
+    box-shadow: var(--anzhiyu-shadow-lightblack);
+    border-radius: .25em;
 }
-
-#article-container a {
-    color: #3b70fc;
-    font-weight: 700;
+#post .post-copyright-cc-info {
+    color: #49b1f5;
 }
-
 :root {
     --global-font-size: 17px;
     --global-bg: #fff;
