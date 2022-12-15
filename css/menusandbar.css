@@ -419,7 +419,7 @@ a.catalog-more:hover {
     background: var(--anzhiyu-background)
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100px) {
     #categoryBar {
         margin-bottom:0;
         position: -webkit-sticky;

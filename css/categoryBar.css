@@ -2,17 +2,17 @@
 #category-bar{
     padding: 0.4rem 1rem 0.4rem 0.5rem;
     background: var(--anzhiyu-white);
-    border-radius: 30px;
     display: flex;
     white-space: nowrap;
     overflow: hidden;
+    margin: 1rem auto 0;
     margin-bottom: 1rem;
     border: var(--style-border);
   }
   
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 0px){
     #category-bar{
-      border-radius: 0;
+      border-radius: 30px;
     }
   }
   
