@@ -1,8 +1,8 @@
 /* 首页分类条展示 */
 #category-bar{
     padding: 0.4rem 1rem 0.4rem 0.5rem;
-    background: var(--heo-card-bg);
-    border-radius: 12px;
+    background: var(--anzhiyu-white);
+    border-radius: 30px;
     display: flex;
     white-space: nowrap;
     overflow: hidden;
