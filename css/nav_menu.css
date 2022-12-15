@@ -1,5 +1,5 @@
 #nav a:hover {
-  background: var(--anzhiyu-main);
+  background: var(--wangxi-main);
   transition: 0.3s;
 }
 
@@ -8,8 +8,8 @@
 }
 #nav-totop #percent {
   font-size: 12px;
-  background: var(--anzhiyu-white);
-  color: var(--anzhiyu-main);
+  background: var(--wangxi-white);
+  color: var(--wangxi-main);
   width: 25px;
   height: 25px;
   border-radius: 35px;
@@ -162,10 +162,10 @@ ul.menus_item_child {
 
 @media screen and (min-width: 768px) {
   .page .menus_item:hover > a.site-page {
-    color: var(--anzhiyu-white) !important;
-    background: var(--anzhiyu-main);
+    color: var(--wangxi-white) !important;
+    background: var(--wangxi-main);
     transition: 0.3s;
-    box-shadow: var(--anzhiyu-shadow-main);
+    box-shadow: var(--wangxi-shadow-main);
   }
 }
 
@@ -182,10 +182,10 @@ ul.menus_item_child {
   color: var(--font-color);
 }
 .page #nav a:hover {
-  color: var(--anzhiyu-white) !important;
-  background: var(--anzhiyu-main);
+  color: var(--wangxi-white) !important;
+  background: var(--wangxi-main);
   transition: 0.3s;
-  box-shadow: var(--anzhiyu-shadow-main);
+  box-shadow: var(--wangxi-shadow-main);
 }
 
 #menus > div.menus_items > div > a {
@@ -222,7 +222,7 @@ ul.menus_item_child {
   top: 0;
   left: 0;
   content: "回到顶部";
-  background-color: var(--anzhiyu-theme);
+  background-color: var(--wangxi-theme);
   font-family: tencent;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -230,7 +230,7 @@ ul.menus_item_child {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   opacity: 0;
-  box-shadow: 0 0 3px var(--anzhiyu-theme);
+  box-shadow: 0 0 3px var(--wangxi-theme);
   line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/
 }
 #page-name:hover:before {
@@ -302,8 +302,8 @@ center#name-container {
   }
 }
 #sidebar #sidebar-menus .menus_items .site-page:hover {
-  color: var(--anzhiyu-white);
-  border-radius: var(--anzhiyu-border-radius);
+  color: var(--wangxi-white);
+  border-radius: var(--wangxi-border-radius);
 }
 #nav .menus_items .menus_item > a > i:last-child {
   display: none;
@@ -314,13 +314,13 @@ center#name-container {
 
 @media screen and (min-width: 900px) {
   #nav .back-home-button:hover {
-    box-shadow: var(--anzhiyu-shadow-main);
+    box-shadow: var(--wangxi-shadow-main);
   }
 }
 
 .back-home-button:hover {
-  background: var(--anzhiyu-main);
-  color: var(--anzhiyu-white) !important;
+  background: var(--wangxi-main);
+  color: var(--wangxi-white) !important;
 }
 .back-home-button {
   display: flex;
@@ -346,13 +346,13 @@ center#name-container {
   position: absolute;
   top: 65px;
   left: 0;
-  background: var(--anzhiyu-card-bg);
+  background: var(--wangxi-card-bg);
   border-radius: 12px;
   border: var(--style-border);
   flex-direction: column;
   font-size: 12px;
-  color: var(--anzhiyu-secondtext);
-  box-shadow: var(--anzhiyu-shadow-border);
+  color: var(--wangxi-secondtext);
+  box-shadow: var(--wangxi-shadow-border);
   transition: 0.3s;
   opacity: 0;
   pointer-events: none;
@@ -383,7 +383,7 @@ center#name-container {
 }
 
 .back-home-button .back-menu-list-group:hover .back-menu-list-title {
-  color: var(--anzhiyu-main);
+  color: var(--wangxi-main);
 }
 .back-home-button .back-menu-list-groups:hover {
   border: var(--style-border-hover);
@@ -400,7 +400,7 @@ center#name-container {
 .back-home-button .back-menu-list .back-menu-item .back-menu-item-text {
   font-size: var(--global-font-size);
   margin-left: 0.5rem;
-  color: var(--anzhiyu-fontcolor);
+  color: var(--wangxi-fontcolor);
   white-space: nowrap;
 }
 #nav #blog_name {
@@ -416,7 +416,7 @@ center#name-container {
   width: 24px;
   height: 24px;
   border-radius: 24px;
-  background: var(--anzhiyu-secondbg);
+  background: var(--wangxi-secondbg);
 }
 #page-header #nav .back-home-button {
   cursor: pointer;
@@ -429,7 +429,7 @@ center#name-container {
   }
 }
 .back-home-button .back-menu-list .back-menu-item:hover .back-menu-item-text {
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
 }
 .back-menu-item-icon.loading img {
   width: 25px;

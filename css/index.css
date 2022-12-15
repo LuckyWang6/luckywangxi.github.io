@@ -2262,7 +2262,7 @@ figure.highlight pre .javascript .function {
   margin: 0.5rem 0.25rem;
   border-radius: 12px;
   border: var(--style-border);
-  background-color: var(--anzhiyu-card-bg);
+  background-color: var(--wangxi-card-bg);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -2284,10 +2284,10 @@ figure.highlight pre .javascript .function {
   }
 }
 .butterfly-flink-list > .flink-list-item:hover {
-  border-color: var(--anzhiyu-main) !important;
-  background-color: var(--anzhiyu-main) !important;
-  -webkit-box-shadow: var(--anzhiyu-shadow-theme) !important;
-  box-shadow: var(--anzhiyu-shadow-theme) !important;
+  border-color: var(--wangxi-main) !important;
+  background-color: var(--wangxi-main) !important;
+  -webkit-box-shadow: var(--wangxi-shadow-theme) !important;
+  box-shadow: var(--wangxi-shadow-theme) !important;
 }
 .butterfly-flink-list > .flink-list-item:hover .flink-item-icon {
   width: 0;
@@ -2296,7 +2296,7 @@ figure.highlight pre .javascript .function {
 }
 .butterfly-flink-list > .flink-list-item:hover .flink-item-name,
 .butterfly-flink-list > .flink-list-item:hover .flink-item-desc {
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
 }
 .butterfly-flink-list > .flink-list-item:hover:before,
 .butterfly-flink-list > .flink-list-item:focus:before,
@@ -2324,7 +2324,7 @@ figure.highlight pre .javascript .function {
   -ms-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   margin: 8px 0 8px 0;
-  background: var(--anzhiyu-background);
+  background: var(--wangxi-background);
   border-radius: 50%;
   overflow: hidden;
 }
@@ -2368,7 +2368,7 @@ figure.highlight pre .javascript .function {
   height: auto;
   font-weight: bold;
   font-size: 1.2em;
-  color: var(--anzhiyu-fontcolor);
+  color: var(--wangxi-fontcolor);
 }
 .flink-item-info .flink-item-desc {
   padding: 0;
@@ -2377,7 +2377,7 @@ figure.highlight pre .javascript .function {
   opacity: 0.7;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
   filter: alpha(opacity=70);
-  color: var(--anzhiyu-fontcolor);
+  color: var(--wangxi-fontcolor);
   word-break: break-all;
   white-space: break-spaces;
   display: -webkit-box;
@@ -2406,10 +2406,10 @@ figure.highlight pre .javascript .function {
   transition: transform 0.5s ease-out !important;
 }
 .flexcard-flink-list .flink-list-card:hover {
-  border-color: var(--anzhiyu-main) !important;
-  background-color: var(--anzhiyu-main) !important;
-  -webkit-box-shadow: var(--anzhiyu-shadow-theme) !important;
-  box-shadow: var(--anzhiyu-shadow-theme) !important;
+  border-color: var(--wangxi-main) !important;
+  background-color: var(--wangxi-main) !important;
+  -webkit-box-shadow: var(--wangxi-shadow-theme) !important;
+  box-shadow: var(--wangxi-shadow-theme) !important;
 }
 .flexcard-flink-list > a {
   width: calc(100% / 5 - 0.5rem);
@@ -4390,7 +4390,7 @@ h1.page-title + .tag-cloud-list {
   width: 100%;
   height: 100%;
   position: fixed;
-  background: var(--anzhiyu-card-bg);
+  background: var(--wangxi-card-bg);
   z-index: 1001;
   opacity: 1;
   -ms-filter: none;

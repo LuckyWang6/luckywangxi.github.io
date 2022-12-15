@@ -1,9 +1,9 @@
 #bbTimeList {
-  background: var(--anzhiyu-white);
-  color: var(--anzhiyu-fontcolor);
+  background: var(--wangxi-white);
+  color: var(--wangxi-fontcolor);
   padding: 0.5rem 1rem;
   border-radius: 30px;
-  box-shadow: var(--anzhiyu-shadow-lightblack);
+  box-shadow: var(--wangxi-shadow-lightblack);
   display: flex;
   transition: all 0.3s ease 0s;
   margin: 1rem auto 0;
@@ -59,7 +59,7 @@
 
 #bbTimeList:hover {
   border: var(--style-border-hover);
-  box-shadow: var(--anzhiyu-shadow-main);
+  box-shadow: var(--wangxi-shadow-main);
 }
 
 /* 文章页H1-H6图标样式效果 */

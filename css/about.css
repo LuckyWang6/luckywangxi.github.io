@@ -1,9 +1,9 @@
 #gitcalendar {
   margin: 0 auto;
   border-radius: 24px;
-  background: var(--anzhiyu-card-bg);
+  background: var(--wangxi-card-bg);
   border: var(--style-border-always);
-  box-shadow: var(--anzhiyu-shadow-border);
+  box-shadow: var(--wangxi-shadow-border);
   position: relative;
   padding: 1rem 2rem;
   overflow: hidden;
@@ -29,7 +29,7 @@
 }
 
 #web_bg ~ .page:has(#about-page) {
-  background: var(--anzhiyu-background);
+  background: var(--wangxi-background);
 }
 
 #about-page .author-box {
@@ -55,7 +55,7 @@
   background: #6bdf8f;
   position: absolute;
   border-radius: 50%;
-  border: 6px solid var(--anzhiyu-background);
+  border: 6px solid var(--wangxi-background);
   top: 50%;
   left: 50%;
   transform: translate(35px, 45px);
@@ -73,7 +73,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
   background: linear-gradient(120deg, #5b27ff 0, #00d4ff 100%);
   background-size: 200%;
   animation: gradient 15s ease infinite;
@@ -83,9 +83,9 @@
 .author-content-item {
   width: 49%;
   border-radius: 24px;
-  background: var(--anzhiyu-card-bg);
+  background: var(--wangxi-card-bg);
   border: var(--style-border-always);
-  box-shadow: var(--anzhiyu-shadow-border);
+  box-shadow: var(--wangxi-shadow-border);
   position: relative;
   padding: 1rem 2rem;
   overflow: hidden;
@@ -178,7 +178,7 @@
   width: 39%;
   background: url(https://cdn.wangxi.online/img/632d634f8376d.jpg) no-repeat top;
   background-size: cover;
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
   overflow: hidden;
 }
 #about-page .about-statistic::after {
@@ -214,7 +214,7 @@
   font-size: 16px;
   border-radius: 15px;
   width: 100%;
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -241,14 +241,14 @@
 }
 
 .post-tips {
-  color: var(--anzhiyu-gray);
+  color: var(--wangxi-gray);
   font-size: 14px;
   position: absolute;
   bottom: 1rem;
   left: 2rem;
 }
 .post-tips a {
-  color: var(--anzhiyu-gray) !important;
+  color: var(--wangxi-gray) !important;
   border: none !important;
 }
 .author-content-item .card-content .banner-button-group {
@@ -261,7 +261,7 @@
   width: 124px;
   border-radius: 20px;
   justify-content: center;
-  background: var(--anzhiyu-card-bg);
+  background: var(--wangxi-card-bg);
   color: var(--font-color);
   display: flex;
   align-items: center;
@@ -279,8 +279,8 @@
 }
 
 .author-content-item .card-content .banner-button-group .banner-button:hover {
-  background: var(--anzhiyu-main);
-  color: var(--anzhiyu-white);
+  background: var(--wangxi-main);
+  color: var(--wangxi-white);
   border-radius: 20px !important;
 }
 .author-content-item.personalities {
@@ -359,7 +359,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background: var(--anzhiyu-maskbg);
+  background: var(--wangxi-maskbg);
   padding: 0.5rem 2rem;
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -415,12 +415,12 @@
 }
 
 .post-tips a:hover {
-  color: var(--anzhiyu-main) !important;
+  color: var(--wangxi-main) !important;
   background: none !important;
 }
 
 .author-content-item.single.reward .reward-list-updateDate {
-  color: var(--anzhiyu-gray);
+  color: var(--wangxi-gray);
   font-size: 14px;
 }
 
@@ -599,7 +599,7 @@
   flex-direction: column;
   justify-content: center;
   background: linear-gradient(120deg, #ff27e8 0, #ff8000 100%);
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
   background-size: 200%;
   animation: gradient 15s ease infinite;
   min-height: 200px;
@@ -629,7 +629,7 @@
   background-size: cover;
   min-height: 300px;
   overflow: hidden;
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
   width: 59%;
 }
 
@@ -681,7 +681,7 @@
   background: url(https://cdn.wangxi.online/img/632f0dd8f33c6.webp) no-repeat;
   background-size: cover;
   min-height: 230px;
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
 }
 
 
@@ -697,7 +697,7 @@
     display: none;
   }
   [data-theme="dark"] .author-content-item .card-content .banner-button-group .banner-button {
-    color: var(--anzhiyu-black) !important;
+    color: var(--wangxi-black) !important;
   }
   .author-content-item .card-content .banner-button-group .banner-button:hover {
     background: none !important;
@@ -747,7 +747,7 @@
     /* border-radius: 0; */
     padding: 0 1rem !important;
     box-shadow: none !important;
-    background: var(--anzhiyu-background);
+    background: var(--wangxi-background);
   }
   .author-content-item .card-content .banner-button-group .banner-button-text {
     display: none;
@@ -769,8 +769,8 @@
     margin-left: 80px;
   }
   .author-content-item .card-content .banner-button-group .banner-button:hover i {
-    background: var(--anzhiyu-background) !important;
-    color: var(--anzhiyu-theme);
+    background: var(--wangxi-background) !important;
+    color: var(--wangxi-theme);
   }
   #selfInfo-content-year {
     width: 90px!important;

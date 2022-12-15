@@ -28,7 +28,7 @@
   cursor: pointer;
   transition: 0.5s;
   transform-origin: left bottom;
-  box-shadow: var(--anzhiyu-shadow-border);
+  box-shadow: var(--wangxi-shadow-border);
   border-radius: 40px;
   overflow: hidden;
 }
@@ -38,21 +38,21 @@
 }
 
 #nav-music.playing {
-  box-shadow: 0 0px 12px -3px var(--anzhiyu-none);
+  box-shadow: 0 0px 12px -3px var(--wangxi-none);
   animation: playingShadow 5s linear infinite;
 }
 
 @keyframes playingShadow {
   0% {
-    box-shadow: 0 0px 12px -3px var(--anzhiyu-none);
+    box-shadow: 0 0px 12px -3px var(--wangxi-none);
   }
 
   50% {
-    box-shadow: 0 0px 12px 0px var(--anzhiyu-main);
+    box-shadow: 0 0px 12px 0px var(--wangxi-main);
   }
 
   100% {
-    box-shadow: 0 0px 12px -3px var(--anzhiyu-none);
+    box-shadow: 0 0px 12px -3px var(--wangxi-none);
   }
 }
 
@@ -71,7 +71,7 @@
 #nav-music.playing .aplayer.aplayer-withlrc .aplayer-pic {
   box-shadow: 0 0 14px #ffffffa6;
   transform: rotate(0deg) scale(1.1);
-  border-color: var(--anzhiyu-white);
+  border-color: var(--wangxi-white);
   animation-play-state: running;
 }
 
@@ -104,7 +104,7 @@
 
 #nav-music .aplayer.aplayer-withlrc .aplayer-info {
   height: 100%;
-  color: var(--anzhiyu-fontcolor);
+  color: var(--wangxi-fontcolor);
   margin: 0;
   padding: 0;
   display: flex;
@@ -112,7 +112,7 @@
 }
 
 #nav-music.playing .aplayer.aplayer-withlrc .aplayer-info {
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
 }
 
 #nav-music.playing #nav-music-hoverTips {
@@ -120,8 +120,8 @@
   opacity: 0;
 }
 #nav-music #nav-music-hoverTips {
-  color: var(--anzhiyu-white);
-  background: var(--anzhiyu-main);
+  color: var(--wangxi-white);
+  background: var(--wangxi-main);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -164,7 +164,7 @@
 }
 
 #nav-music.playing .aplayer {
-  background: var(--anzhiyu-main-op-deep);
+  background: var(--wangxi-main-op-deep);
   border: var(--style-border-hover);
   backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: blur(20px);
@@ -260,7 +260,7 @@
 #nav-music .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
   height: 100%;
   opacity: 0.1;
-  background-color: var(--anzhiyu-white) !important;
+  background-color: var(--wangxi-white) !important;
   animation: lightBar 5s ease infinite;
   animation-play-state: paused;
 }
@@ -301,7 +301,7 @@
 }
 
 #nav-music .aplayer .aplayer-lrc p.aplayer-lrc-current {
-  color: var(--anzhiyu-white);
+  color: var(--wangxi-white);
   border: none;
 }
 

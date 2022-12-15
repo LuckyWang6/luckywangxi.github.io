@@ -1,26 +1,26 @@
 #article-container a:not(.headerlink):not(.cf-friends-link):hover {
-    color: var(--anzhiyu-white);
-    background: var(--anzhiyu-theme);
-    box-shadow: var(--anzhiyu-shadow-lightblack);
-    border-bottom: solid 2px var(--anzhiyu-lighttext);
+    color: var(--wangxi-white);
+    background: var(--wangxi-theme);
+    box-shadow: var(--wangxi-shadow-lightblack);
+    border-bottom: solid 2px var(--wangxi-lighttext);
     border-radius: .25em;
     text-decoration: none;
 }
 
 #article-container a:not(.headerlink):not(.cf-friends-link):hover {
-    border-bottom: solid 2px var(--anzhiyu-lighttext);
-    color: var(--anzhiyu-fontcolor);
+    border-bottom: solid 2px var(--wangxi-lighttext);
+    color: var(--wangxi-fontcolor);
     text-decoration: none;
     border-radius: .25em;
 }
 
 #post #article-container a:not(a[data-fancybox]), #page #article-container a:not(img):not(.flink-list-item>a):not(a[data-fancybox]):not(#cf-container a) {
-    border-bottom: 2px solid var(--anzhiyu-lighttext);
+    border-bottom: 2px solid var(--wangxi-lighttext);
     font-weight: 700;
-    color: var(--anzhiyu-fontcolor);
+    color: var(--wangxi-fontcolor);
     padding: 0 .2em;
     text-decoration: none;
-    box-shadow: var(--anzhiyu-shadow-lightblack);
+    box-shadow: var(--wangxi-shadow-lightblack);
     border-radius: .25em;
 }
 #post .post-copyright-cc-info {
@@ -130,7 +130,7 @@ button {
 }
 
 a {
-    color: var(--anzhiyu-fontcolor);
+    color: var(--wangxi-fontcolor);
     text-decoration: none;
     word-wrap: break-word;
     -webkit-transition: all .2s;
@@ -273,16 +273,16 @@ figure.highlight pre .javascript .function,figure.highlight pre .tag .attr {
 }
 
 #catalog-bar {
-    border-radius: var(--anzhiyu-border-radius);
+    border-radius: var(--wangxi-border-radius);
     display: flex;
-    border: var(--anzhiyu-border-radius);
+    border: var(--wangxi-border-radius);
     margin-bottom: 1rem;
     justify-content: space-between;
     align-items: center
 }
 
 #catalog-bar:hover {
-    border-color: var(--anzhiyu-theme)
+    border-color: var(--wangxi-theme)
 }
 
 #catalog-bar i {
@@ -323,7 +323,7 @@ figure.highlight pre .javascript .function,figure.highlight pre .tag .attr {
 }
 
 .catalog-list-item:hover .notification-tip {
-    color: var(--anzhiyu-main)
+    color: var(--wangxi-main)
 }
 
 .catalog-list-item .notification-tip {
@@ -334,25 +334,25 @@ figure.highlight pre .javascript .function,figure.highlight pre .tag .attr {
     height: 1rem;
     margin-left: .25rem;
     border-radius: 50%;
-    background-color: var(--anzhiyu-secondbg);
+    background-color: var(--wangxi-secondbg);
     padding: 10px;
     font-size: .8rem;
     transition: 0s
 }
 
 .catalog-list-item.selected a {
-    background: var(--anzhiyu-lighttext);
-    color: var(--anzhiyu-white)
+    background: var(--wangxi-lighttext);
+    color: var(--wangxi-white)
 }
 
 a.catalog-more {
     min-width: fit-content;
     font-weight: 700;
-    color: var(--anzhiyu-fontcolor)
+    color: var(--wangxi-fontcolor)
 }
 
 a.catalog-more:hover {
-    color: var(--anzhiyu-theme)
+    color: var(--wangxi-theme)
 }
 
 #categoryBar {
@@ -363,7 +363,7 @@ a.catalog-more:hover {
 
 #category-bar {
     padding: .5rem 1.2rem;
-    background: var(--anzhiyu-card-bg);
+    background: var(--wangxi-card-bg);
     display: flex;
     white-space: nowrap;
     overflow: hidden;
@@ -382,7 +382,7 @@ a.catalog-more:hover {
 
 #category-bar.category-bar:hover {
     border: var(--style-border-hover);
-    box-shadow: var(--anzhiyu-shadow-main)
+    box-shadow: var(--wangxi-shadow-main)
 }
 
 #category #category-bar {
@@ -395,13 +395,13 @@ a.catalog-more:hover {
 }
 
 .catalog-list-item:hover a {
-    background: var(--anzhiyu-main);
-    color: var(--anzhiyu-white)
+    background: var(--wangxi-main);
+    color: var(--wangxi-white)
 }
 
 .catalog-list-item.select a {
-    background: var(--anzhiyu-main);
-    color: var(--anzhiyu-white);
+    background: var(--wangxi-main);
+    color: var(--wangxi-white);
     border-radius: 30px
 }
 
@@ -415,7 +415,7 @@ a.catalog-more:hover {
 }
 
 [data-theme=dark] #category-bar.category-bar {
-    background: var(--anzhiyu-background)
+    background: var(--wangxi-background)
 }
 
 @media screen and (max-width: 100px) {
@@ -433,7 +433,7 @@ a.catalog-more:hover {
     }
 
     #category-bar.category-bar {
-        background: var(--anzhiyu-background)
+        background: var(--wangxi-background)
     }
 
     #category-bar {
