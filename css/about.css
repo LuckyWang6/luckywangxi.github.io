@@ -19,6 +19,9 @@
   #page:has(#about-page) .page-title {
     display: none;
   }
+  #page:has(#music-page) .page-title {
+    display: none;
+  }
   
   .page:has(#about-page) #footer-wrap {
     opacity: 1;
