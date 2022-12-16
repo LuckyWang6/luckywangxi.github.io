@@ -176,7 +176,7 @@
 #about-page .about-statistic {
   min-height: 380px;
   width: 39%;
-  background: url(https://cdn.wangxi.online/img/632d634f8376d.jpg) no-repeat top;
+  background: url(https://cdn.wangxi.online/img/632d5d8f37e90.webp) no-repeat top;
   background-size: cover;
   color: var(--wangxi-white);
   overflow: hidden;
@@ -880,4 +880,8 @@ max-width: 1400px!important;
   font-size: 12px;
   color: var(--wangxi-secondtext);
   white-space: nowrap;
+}
+
+.reward-main {
+    animation: 0.3s ease 0.1s 1 normal both running donate_effcet;
 }
