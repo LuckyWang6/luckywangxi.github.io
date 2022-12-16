@@ -667,7 +667,7 @@
     background-size: cover;
     min-height: 100px;
     overflow: hidden;
-    color: 0;
+    color: var(--wangxi-white);
   }
   .author-content-item.like-bilibili::after {
     position: absolute;
