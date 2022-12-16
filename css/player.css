@@ -148,7 +148,7 @@
 /* 播放器控件 */
 .music-player__controls {
   width: 330px;
-  height: 130px;
+  height: auto;!important
   float: right;
 }
 
