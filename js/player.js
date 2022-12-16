@@ -35,18 +35,21 @@ class Musics {
                 songUrl: 'https://cdn.wangxi.online/music/songs/%E4%BA%91%E7%83%9F%E6%88%90%E9%9B%A8.m4a',
                 imageUrl: 'https://cdn.wangxi.online/music/img/%E4%BA%91%E7%83%9F%E6%88%90%E9%9B%A8.jpg'
             },
+            {
                 id: 3,
                 title: '逆战 - 张杰',
                 singer: '逆战 - 张杰',
                 songUrl: 'https://cdn.wangxi.online/music/songs/%E9%80%86%E6%88%98.m4a',
                 imageUrl: 'https://cdn.wangxi.online/music/img/%E9%80%86%E6%88%98.jpg'
             },
+            {
                 id: 4,
                 title: '体面 - 于文文',
                 singer: '体面 - 于文文',
                 songUrl: 'https://cdn.wangxi.online/music/songs/%E4%BD%93%E9%9D%A2.mp3',
                 imageUrl: 'https://cdn.wangxi.online/music/img/%E4%BD%93%E9%9D%A2.jpg'
             },
+            {
                 id: 5,
                 title: '天外来物 - 薛之谦',
                 singer: '天外来物 - 薛之谦',
