@@ -78,7 +78,7 @@
 }
 /* 播放器主体 */
 .music-player__main {
-  height: auto;!important
+  height: auto;
   padding: 5px;
   box-shadow: 0 0 10px rgb(0 0 0 / 20%);
   border-radius: 10px;
