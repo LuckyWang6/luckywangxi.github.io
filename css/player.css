@@ -1,8 +1,7 @@
 /* 播放器大小 */
 .music-player {
-  width: auto;
-  max-width: 600px;
-  height: 600px;
+  width: 570px;
+  height: 500px;
 }
 .music-player h3{
   margin: 0px 0 1px!important;
@@ -37,7 +36,7 @@
 /* 播放器位置 */
 .music-player {
   position: relative;
-  margin: 0px auto;
+  margin: 45px auto;
 }
 
 /* 歌曲列表 */
@@ -78,8 +77,8 @@
 }
 /* 播放器主体 */
 .music-player__main {
-  height: auto;
-  padding: 5px;
+  height: 180px;
+  padding: 25px;
   box-shadow: 0 0 10px rgb(0 0 0 / 20%);
   border-radius: 10px;
   position: relative;
@@ -148,7 +147,7 @@
 /* 播放器控件 */
 .music-player__controls {
   width: 330px;
-  height: auto;!important
+  height: 130px;
   float: right;
 }
 
