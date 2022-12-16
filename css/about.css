@@ -663,9 +663,9 @@
   
   .author-content-item.like-bilibili {
     width: 39%;
-    background: url(https://cdn.wangxi.online/img/BWeLyHqW.jpg) no-repeat top;
+    background: url(https://cdn.wangxi.online/img/BWeLyHqW.jpg) no-repeat center;
     background-size: cover;
-    min-height: 300px;
+    min-height: 260px;
     overflow: hidden;
     color: var(--wangxi-white);
   }
