@@ -665,7 +665,7 @@
     width: 39%;
     background: url(https://cdn.wangxi.online/img/BWeLyHqW.jpg) no-repeat top;
     background-size: cover;
-    min-height: 100px;
+    min-height: 300px;
     overflow: hidden;
     color: var(--wangxi-white);
   }
