@@ -1,7 +1,8 @@
 /* 播放器大小 */
 .music-player {
-  width: 570px;
-  height: 500px;
+  width: auto;
+  max-width: 600px;
+  height: 600px;
 }
 .music-player h3{
   margin: 0px 0 1px!important;
@@ -77,8 +78,8 @@
 }
 /* 播放器主体 */
 .music-player__main {
-  height: 180px;
-  padding: 25px;
+  height: auto;!important
+  padding: 5px;
   box-shadow: 0 0 10px rgb(0 0 0 / 20%);
   border-radius: 10px;
   position: relative;
@@ -102,7 +103,7 @@
   float: left;
   width: 130px;
   height: 130px;
-  background: url(/img/cd.png) no-repeat center;
+  background: url(https://cdn.wangxi.online/music/img/cd.png) no-repeat center;
   background-size: 100%;
   position: relative;
 }
