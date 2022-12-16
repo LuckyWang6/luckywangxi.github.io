@@ -661,7 +661,7 @@
     left: 0;
   }
   
-  .author-content-item.historical-drama {
+  .author-content-item.bilibili {
     width: 39%;
     background: url(https://cdn.wangxi.online/img/BWeLyHqW.jpg) no-repeat top;
     background-size: cover;
@@ -669,7 +669,7 @@
     overflow: hidden;
     color: 0;
   }
-  .author-content-item.historical-drama::after {
+  .author-content-item.bilibili::after {
     position: absolute;
     content: "";
     width: 100%;
