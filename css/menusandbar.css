@@ -1,31 +1,60 @@
 #article-container a:not(.headerlink):not(.cf-friends-link):hover {
-    color: var(--wangxi-white);
     background: var(--wangxi-theme);
     box-shadow: var(--wangxi-shadow-lightblack);
-    border-bottom: solid 2px var(--wangxi-lighttext);
     border-radius: .25em;
     text-decoration: none;
 }
 
-#article-container a:not(.headerlink):not(.cf-friends-link):hover {
-    border-bottom: solid 2px var(--wangxi-lighttext);
-    color: var(--wangxi-fontcolor);
-    text-decoration: none;
-    border-radius: .25em;
-}
 
-#post #article-container a:not(a[data-fancybox]), #page #article-container a:not(img):not(.flink-list-item>a):not(a[data-fancybox]):not(#cf-container a) {
+#post #article-container a:not(a[data-fancybox]):not(.headerlink), #page #article-container a:not(img):not(.flink-list-item>a):not(a[data-fancybox]):not(#cf-container a) {
     border-bottom: 2px solid var(--wangxi-lighttext);
     font-weight: 700;
     color: var(--wangxi-fontcolor);
     padding: 0 .2em;
     text-decoration: none;
     box-shadow: var(--wangxi-shadow-lightblack);
-    border-radius: .25em;
 }
+
+#post #article-container a:not(a[data-fancybox]):hover , #page #article-container a:not(img):not(.flink-list-item>a):not(a[data-fancybox]):not(#cf-container a) {
+    color: var(--wangxi-white);
+}
+
 #post .post-copyright-cc-info {
     color: #49b1f5;
 }
+
+.tk-content span a:not([data-fancybox=gallery]) {
+    font-weight: 500;
+    border-bottom: solid 2px var(--wangxi-lighttext);
+    color: var(--wangxi-fontcolor);
+    padding: 0 .2em;
+    text-decoration: none;
+}
+
+.tk-content span a:not([data-fancybox=gallery]):hover {
+    font-weight: 500;
+    color: var(--wangxi-white);
+    background: var(--wangxi-theme);
+    border-radius: .25em;
+    padding: 0 .2em;
+    text-decoration: none;
+}
+
+.tk-main .tk-content span>a {
+    border-bottom: none;
+}
+
+#twikoo .tk-extra {
+    background: var(--wangxi-card-bg);
+    border: var(--style-border-always);
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-right: 4px;
+    color: var(--wangxi-secondtext);
+    margin-top: 6px;
+    font-size: .8rem;
+}
+
 :root {
     --global-font-size: 17px;
     --global-bg: #fff;
@@ -142,7 +171,7 @@ a {
 }
 
 a:hover {
-    color: #3b70fc
+    color: var(--wangxi-theme);
 }
 
 .is-center {
