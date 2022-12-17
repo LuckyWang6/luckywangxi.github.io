@@ -105,3 +105,8 @@
     letter-spacing: 5px;
 }
 
+.tk-expand:hover {
+    background: var(--wangxi-main)!important;
+    color: var(--wangxi-white);
+    border-radius: 50px !important;
+  }
