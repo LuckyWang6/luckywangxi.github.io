@@ -574,6 +574,29 @@
     bottom: auto;
   }
   
+  #about-page .post-reward .reward-item a:hover {
+    background: transparent !important;
+  }
+  #about-page .post-reward .reward-item a {
+    border-bottom: none !important;
+  }
+  #about-page .post-reward .reward-item a img {
+    margin-bottom: 0 !important;
+  }
+  #about-page .post-reward .reward-main .reward-all {
+    border-radius: 10px;
+    padding: 20px 10px !important;
+  }
+  .post-reward .reward-main .reward-all .reward-item {
+    padding: 0 8px !important;
+  }
+  .post-reward .reward-main .reward-all li.reward-item::before {
+    content: none !important;
+  }
+  .post-reward .reward-main .reward-all:after {
+    content: none !important;
+  }
+  
   .author-content-item.maxim {
     font-size: 36px;
     font-weight: 700;
