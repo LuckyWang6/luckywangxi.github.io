@@ -433,10 +433,9 @@
     margin-top: 0px;
     width: auto;
     text-align: none;
-    pointer-events: none;
+    pointer-events: all;
     right: 2rem;
     top: 2rem;
-    z-index: 100;
   }
   .tip-button {
     border: 0;
@@ -453,7 +452,6 @@
     transition: transform 50ms ease-in-out;
     width: auto;
     -webkit-tap-highlight-color: transparent;
-    z-index: 100;
   }
   .coin::before,
   .coin__back,
@@ -467,7 +465,7 @@
     left: 0;
     position: absolute;
     width: 100%;
-    z-index: 100;
+    z-index: 3;
   }
   .coin-wrapper {
     background: 0 0;
@@ -528,7 +526,7 @@
             ) * -1deg));
     transition: opacity 0.1s linear 0.2s;
     width: 3.5rem;
-    z-index: 100;
+    z-index: 3;
   }
   
   .coin__back {
@@ -588,19 +586,15 @@
   #about-page .post-reward .reward-main .reward-all {
     border-radius: 10px;
     padding: 20px 10px !important;
-    z-index: 100;
   }
   .post-reward .reward-main .reward-all .reward-item {
     padding: 0 8px !important;
-    z-index: 100;
   }
   .post-reward .reward-main .reward-all li.reward-item::before {
     content: none !important;
-    z-index: 100;
   }
   .post-reward .reward-main .reward-all:after {
     content: none !important;
-    z-index: 100;
   }
   
   .author-content-item.maxim {
@@ -837,58 +831,51 @@
   }
   
   /* 赞赏的css */
-  
-  .reward-list-all {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    margin-left: -0.25rem;
-    margin-right: -0.25rem;
-    z-index: 100;
-  }
-  
-  .reward-list-item {
-    padding: 1rem;
-    border-radius: 12px;
-    border: var(--style-border-always);
-    width: calc((100% / 3) - 0.5rem);
-    margin: 0 0.25rem 0.5rem 0.25rem;
-    box-shadow: var(--wangxi-shadow-border);
-    z-index: 100;
-  }
-  
-  .reward-list-item .reward-list-item-name {
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1;
-    margin-bottom: 0.5rem;
-    z-index: 100;
-  }
-  
-  .reward-list-item .reward-list-bottom-group {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 100;
-  }
-  
-  .reward-list-item .reward-list-item-money {
-    padding: 4px;
-    background: var(--font-color);
-    color: var(--card-bg);
-    font-size: 12px;
-    line-height: 1;
-    border-radius: 4px;
-    margin-right: 4px;
-    white-space: nowrap;
-    z-index: 100;
-  }
-  
-  .reward-list-item .reward-list-item-time {
-    font-size: 12px;
-    color: var(--wangxi-secondtext);
-    white-space: nowrap;
-    z-index: 100;
-  }s
+.reward-list-all {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+}
+
+.reward-list-item {
+  padding: 1rem;
+  border-radius: 12px;
+  border: var(--style-border-always);
+  width: calc((100% / 3) - 0.5rem);
+  margin: 0 0.25rem 0.5rem 0.25rem;
+  box-shadow: var(--wangxi-shadow-border);
+}
+
+.reward-list-item .reward-list-item-name {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.reward-list-item .reward-list-bottom-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reward-list-item .reward-list-item-money {
+  padding: 4px;
+  background: var(--font-color);
+  color: var(--card-bg);
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 4px;
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.reward-list-item .reward-list-item-time {
+  font-size: 12px;
+  color: var(--wangxi-secondtext);
+  white-space: nowrap;
+}
