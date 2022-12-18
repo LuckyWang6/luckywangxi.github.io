@@ -566,7 +566,7 @@
   .author-content .post-reward .reward-main {
     bottom: 0;
     top: 50px;
-    left: auto;
+    left: -55%!important;
     right: 0;
   }
   .author-content .post-reward .reward-main .reward-all:before {
@@ -586,6 +586,7 @@
   #about-page .post-reward .reward-main .reward-all {
     border-radius: 10px;
     padding: 20px 10px !important;
+    z-index: 30;
   }
   .post-reward .reward-main .reward-all .reward-item {
     padding: 0 8px !important;
