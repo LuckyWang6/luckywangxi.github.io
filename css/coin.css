@@ -74,7 +74,6 @@
   z-index: 2;
 }
 .tip-button::after {
-  bottom: -1rem;
   color: white;
   content: '谢了老铁！'; /*点击后显示的内容*/
   height: 110%;
