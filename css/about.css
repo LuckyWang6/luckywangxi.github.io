@@ -781,12 +781,6 @@
     .site-card-group > a {
       width: 100% !important;
     }
-    .post-reward {
-      display: none;
-    }
-    .reward-list-item {
-      width: 100% !important;
-    }
     .layout > div:first-child:not(.recent-posts) {
       /* border-radius: 0; */
       padding: 0 1rem !important;
@@ -826,7 +820,11 @@
       display: none;
     }
   }
-  
+  @media screen and (max-width: 100px) {
+    .post-reward {
+      display: none!important;
+    }
+  }
   .layout.hide-aside{
   max-width: 1400px!important;
   }
