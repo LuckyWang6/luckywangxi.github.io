@@ -1,9 +1,25 @@
-#aside-content {
-    padding-left: 40px!important;
+.layout {
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    margin: -30px auto;
+    padding: 40px 15px;
+    max-width: 1360px !important;
+    width: 100%;
+    padding-top: 1rem;
 }
 
-.layout {
-    max-width: 1360px !important;
+#aside-content {
+    max-width: 320px;
+    min-width: 300px;
+}
+
+#aside-content {
+    width: 26%;
+}
+
+#aside-content {
+    padding-left: 15px!important;
 }
 
 #page-header.post-bg {
