@@ -1,3 +1,15 @@
+#aside-content {
+    padding-left: 40px!important;
+}
+
+.layout {
+    max-width: 1360px !important;
+}
+
+#page-header.post-bg {
+    height: 350px !important;
+}
+
 #page h1.page-title {
     margin: 8px 0 20px;
     display: none;

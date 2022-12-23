@@ -1,0 +1,21 @@
+#fps{
+    position: fixed;
+    right:10px;
+    bottom:4px;
+    z-index: 1919810;
+    font-family: HarmonyOS;
+    font-size: 14px;
+}
+
+[data-theme="light"] #fps{
+    background-color: #fefeff;
+    padding: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
+[data-theme="dark"] #fps{
+    background-color: #08080a;
+    padding: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
