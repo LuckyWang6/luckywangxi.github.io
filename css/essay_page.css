@@ -1,3 +1,7 @@
+#bber .bber-bottom .bber-reply {
+    cursor: url(https://cdn.wangxi.online/img/pointer.cur),auto!important;
+}
+
 #page:has(#essay_page) {
   border: 0;
   box-shadow: none !important;
@@ -35,6 +39,11 @@
   display: flex;
   position: relative;
   width: calc(100% / 4 - 5px);
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    cursor: var(--pointer-cursor)!important;
 }
 
 #bber .bber-content .datacont {
@@ -122,7 +131,7 @@
   background-color: var(--wangxi-gray-op);
   padding: 0px 8px;
   border-radius: 20px;
-  cursor: default;
+  cursor: var(--default-cursor)!important;
   display: flex;
   align-items: center;
 }

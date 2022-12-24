@@ -28,7 +28,7 @@ function essayScroll() {
 function replaceAll(e, n, t) {
   return e.split(n).join(t);
 }
-var anzhiyu = {
+var wangxi = {
   diffDate: function (d, more = false) {
     const dateNow = new Date();
     const datePost = new Date(d);
@@ -66,7 +66,7 @@ var anzhiyu = {
       document.querySelectorAll("#bber time").forEach(function (e) {
         var t = e,
           datetime = t.getAttribute("datetime");
-        (t.innerText = anzhiyu.diffDate(datetime, true)), (t.style.display = "inline");
+        (t.innerText = wangxi.diffDate(datetime, true)), (t.style.display = "inline");
       });
   },
   reflashEssayWaterFall: function () {
@@ -116,9 +116,9 @@ var anzhiyu = {
   },
 };
 
-anzhiyu.initIndexEssay();
-anzhiyu.changeTimeInEssay();
-anzhiyu.reflashEssayWaterFall();
+wangxi.initIndexEssay();
+wangxi.changeTimeInEssay();
+wangxi.reflashEssayWaterFall();
 
 if (document.querySelector('#bber-talk')) {
       var swiper = new Swiper('.swiper-container', {
