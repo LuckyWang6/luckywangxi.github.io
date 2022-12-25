@@ -130,7 +130,7 @@
 
   <url>
     <loc>https://wangxi.online/</loc>
-    <lastmod>2022-12-24</lastmod>
+    <lastmod>2022-12-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,21 +138,21 @@
   
   <url>
     <loc>https://wangxi.online/tags/hexo/</loc>
-    <lastmod>2022-12-24</lastmod>
+    <lastmod>2022-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://wangxi.online/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-12-24</lastmod>
+    <lastmod>2022-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://wangxi.online/tags/%E6%97%B6%E4%BA%8B/</loc>
-    <lastmod>2022-12-24</lastmod>
+    <lastmod>2022-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -161,21 +161,21 @@
   
   <url>
     <loc>https://wangxi.online/categories/hexo%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2022-12-24</lastmod>
+    <lastmod>2022-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://wangxi.online/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-12-24</lastmod>
+    <lastmod>2022-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://wangxi.online/categories/%E6%97%B6%E4%BA%8B/</loc>
-    <lastmod>2022-12-24</lastmod>
+    <lastmod>2022-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
