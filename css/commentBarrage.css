@@ -91,6 +91,17 @@
     --lyx-black-acrylic2: #000a;
 }
 
+#post-comment .comment-tips {
+    background-color: rgba(103,194,58,.13);
+    border: var(--style-border-always);
+    border-color: var(--wangxi-green);
+    color: var(--wangxi-green);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-top: .5rem;
+    display: none;
+}
+
 
 .tk-expand {
     width: 100%;
