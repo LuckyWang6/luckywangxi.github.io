@@ -77,7 +77,6 @@ var wangxi = {
       }, 500);
   },
   commentText: function (e) {
-    if (e == "undefined" || e == "null") e = "好棒！";
     var n = document.getElementsByClassName("el-textarea__inner")[0],
       t = document.createEvent("HTMLEvents");
     if (!n) return;
