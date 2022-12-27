@@ -129,3 +129,10 @@ if (document.querySelector('#bber-talk')) {
       },
       });
     }
+    
+function addFriendLink() {
+  // Select the element with the class `el-textarea__inner`
+  let textarea = document.querySelector('.el-textarea__inner');
+  // Set the value of the textarea
+  textarea.value = "昵称：\n网站地址：\n头像图片url：\n描述：";
+}

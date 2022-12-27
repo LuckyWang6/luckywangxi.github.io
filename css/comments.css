@@ -51,3 +51,19 @@
     left: 50%;
     transform: translate(-50%, -48px);
 }
+
+#twikoo .tk-input .el-textarea__inner {
+    min-height: 145px!important;
+    border-radius: 15px;
+    display: block;
+    resize: vertical;
+    padding: 16px 16px 40px 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: inherit;
+    color: #606266;
+    background-color: var(--wangxi-card-bg);
+    border: var(--style-border-always);
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+}
