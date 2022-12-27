@@ -270,3 +270,28 @@
 #bber .aplayer .aplayer-lrc p {
   color: var(--wangxi-fontcolor);
 }
+
+.author-content.author-content-item.linkPage {
+  height: 19rem;
+  background: url(https://cdn.wangxi.online/postimg/v2-57c1bc9ec5c15d57c76e6a9c5e5d4b39_180x120.jpg) left 75% / cover no-repeat;
+  color: var(--wangxi-white);
+  overflow: hidden;
+  margin-top: 0px;
+}
+#page:has(#link_page) .author-content-item .card-content .banner-button-group .banner-button:hover {
+  color: var(--wangxi-white);
+  border-radius: 20px !important;
+}
+
+#page:has(#link_page) {
+  border: 0;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+#page:has(#link_page) .page-title {
+  display: none;
+}
+#web_bg ~ .page:has(#link_page) {
+  background: var(--wangxi-background);
+}
