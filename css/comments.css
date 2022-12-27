@@ -67,3 +67,18 @@
     border: var(--style-border-always);
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
 }
+
+.tk-comments .tk-row-actions-start {
+    position: relative;
+    top: -56px;
+    left: 17px;
+}
+
+.OwO .OwO-body {
+    background-color: var(--wangxi-maskbg)!important;
+    border: var(--style-border-always)!important;
+    border-radius: 8px!important;
+    overflow: hidden;
+    backdrop-filter: saturate(180%) blur(10px);
+    cursor: auto;
+}
