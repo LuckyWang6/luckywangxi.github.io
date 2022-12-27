@@ -134,5 +134,6 @@ function addFriendLink() {
   // Select the element with the class `el-textarea__inner`
   let textarea = document.querySelector('.el-textarea__inner');
   // Set the value of the textarea
-  textarea.value = "昵称：\n网站地址：\n头像图片url：\n描述：";
+  textarea.value = "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：";
 }
+
