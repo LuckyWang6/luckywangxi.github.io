@@ -1,0 +1,43 @@
+- class_name: 即刻短文
+  essay_list:
+    - content: 我好像🐏了
+      date: 2022/12/26 14:00:00
+      image:
+        - https://cdn.wangxi.online/postimg/b121679327abd31660d97be82b14f62.jpg
+    - content: 刚刚把即刻短文界面的aplayer弄好了，来放首歌听
+      date: 2022/12/24 22:38:00
+      aplayer: 
+        server: netease
+        id: 513360721
+    - content: 今天选课了，是哪个英专生大三了还有这么多课啊，原来是我，呜呜呜
+      date: 2022/12/24 13:27:00
+      image:
+        - https://cdn.wangxi.online/postimg/course.png
+    - content: 最近终于把关于页面、即刻短文和每日早报弄好啦，感觉成就感满满，就是希望我那个美羊羊的宝贝女朋友快快阳康！
+      date: 2022/12/20 9:44:00
+      image:
+        - https://cdn.wangxi.online/postimg/about.jpeg
+        - https://cdn.wangxi.online/postimg/news.jpeg
+      link: https://news.wangxi.online/
+    - content: 电子木鱼上线啦，啊哈哈哈哈
+      date: 2022/12/14 20:00:00
+      link: /muyu/
+    - content: A man can be destroyed, but not defeated
+      date: 2022/12/14 11:12:00
+    - content: 想把这首歌放在以后的婚礼上
+      date: 2022/12/12 23:00:00
+      aplayer: 
+        server: netease
+        id: 16629199
+    - content: 好想我的宝宝呀
+      date: 2022/12/12 23:18:00
+      image:
+        - https://cdn.wangxi.online/postimg/mmexport1670729436164.jpg
+        - https://cdn.wangxi.online/postimg/qq_pic_merged_1670858383846.jpg
+        - https://cdn.wangxi.online/postimg/mmexport1670729438242.jpg
+    - content: 终于把即刻短文搞定了, 耶✌️
+      date: 2022/12/12 23:00:00
+      link: /essay/
+
+
+

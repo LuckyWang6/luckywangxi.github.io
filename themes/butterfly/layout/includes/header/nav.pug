@@ -1,0 +1,64 @@
+- const { darkmode } = theme
+nav#nav
+  span#blog_name
+    .back-home-button(tabindex='-1')
+      i.back-home-button-icon.fas.fa-grip-vertical
+      .back-menu-list-groups
+        .back-menu-list-group
+          .back-menu-list-title 线路
+          .back-menu-list
+            a.back-menu-item(href='https://wangxi.online', title='CDN加速地址', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://cdn.wangxi.online/img/favicon.jpg')
+              span.back-menu-item-text 主线路
+            a.back-menu-item(href='https://blog.wangxi.online', title='源站地址', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://cdn.wangxi.online/img/favicon.jpg')
+              span.back-menu-item-text 服务器线路
+            a.back-menu-item(href='https://www.wangxi.online/', rel='external nofollow', title='Vercel线路', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://cdn.wangxi.online/img/favicon.jpg')
+              span.back-menu-item-text Vercel线路
+            a.back-menu-item(href='https://luckywangxi.github.io/', rel='external nofollow', title='Github线路', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://cdn.wangxi.online/img/favicon.jpg')
+              span.back-menu-item-text Github线路
+        .back-menu-list-group
+          .back-menu-list-title 网页
+          .back-menu-list
+            a.back-menu-item(href='http://jd.wangxi.online', title='JD代挂', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://cdn.wangxi.online/img/京东.png')
+              span.back-menu-item-text JD代挂
+            a.back-menu-item(href='https://news.wangxi.online/', title='每日早报', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://news.wangxi.online/favicon.svg')
+              span.back-menu-item-text 每日早报
+            a.back-menu-item(href='https://alist.wangxi.online/', title='Alist文件管理', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://cdn.wangxi.online/img/logo.svg')
+              span.back-menu-item-text Alist文件管理
+
+    a#site-name(href=url_for('/'))
+      .title #[='WangXi']
+      i.fa-solid.fa-house
+
+  div.mask-name-container
+    center(id="name-container")
+      a(id="page-name" href="javascript:rmf.scrollToTop()") PAGE_NAME
+
+  #menus
+    if (theme.algolia_search.enable || theme.local_search.enable)
+      div.nav-button#search-button
+        a.site-page.social-icon.search
+          i.fas.fa-search.fa-fw
+          span=' '+_p('search.title')
+
+    if darkmode.enable && darkmode.button
+      div.nav-button#darkmode_navswitch
+        a.darkmode_switchbutton(type="button" title=_p('rightside.night_mode_title') onclick="rmf.switchDarkMode()")
+          i.fas.fa-adjust
+
+    div.nav-button#nav-totop
+      a.totopbtn
+        i.fas.fa-arrow-up
+        span#percent(onclick="btf.scrollToDest(0,500)") 0
+
+
+    !=partial('includes/header/menu_item', {}, {cache: true})
+    #toggle-menu
+      a.site-page
+        i.fas.fa-bars.fa-fw

@@ -1,0 +1,5 @@
+- class_name: 赞赏
+  reward_list:
+    - name: 邓婷
+      amount: 520
+      datatime: 2022-12-15

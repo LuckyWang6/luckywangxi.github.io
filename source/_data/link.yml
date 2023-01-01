@@ -1,0 +1,55 @@
+- class_name: 技术支持
+  class_desc: 本网站的搭建由以下开源作者提供技术支持
+  flink_style: flexcard
+  link_list: 
+    - name: Hexo 
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网志框架
+    - name: Jerry Wong
+      link: https://butterfly.js.org/
+      avatar: https://cdn.wangxi.online/postimg/16351105.png
+      descr: Buterfly主题作者
+
+- class_name: 推荐博客
+  flink_style: butterfly
+  link_list:
+    - name: LuckyWangXi
+      link: https://wangxi.online/
+      avatar: https://cdn.wangxi.online/img/favicon.jpg
+      descr: 无限进步！
+    - name: 安知鱼`Blog
+      link: https://anzhiy.cn/
+      avatar: https://image.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png
+      descr: 分享设计与科技生活
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 欢迎光临糖果屋
+    - name: Leonus
+      link: https://blog.leonus.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5
+      descr: 进一寸有进一寸的欢喜。
+    - name: Redish101 Blog
+      link: https://blog.redish101.top/
+      avatar: https://cdn1.tianli0.top/gh/Redish101/cdn@src/img/avatar.png
+    - name: 轻笑Chuckle
+      link: https://www.chuckle.top
+      avatar: https://cdn1.tianli0.top/npm/chuckle-js-css/chuckle/head.webp
+      descr: 宁静致远,倾尘轻笑
+    - name: Ariasakaの小窝
+      link: https://yisous.xyz
+      avatar: https://bu.dusays.com/2022/12/15/639a9ebbbc1ad.jpg
+      descr: 人有悲欢离合 月有阴晴圆缺
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://www.fomal.cc/assets/head.jpg
+      descr: Future is now 🍭🍭🍭
+    - name: Ethan.Tzy
+      link: https://tzy1997.com/
+      avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+      descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
