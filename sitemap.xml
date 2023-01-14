@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wangxi.online/post/91b24641.html</loc>
+    
+    <lastmod>2023-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wangxi.online/post/3b9ae59c.html</loc>
     
-    <lastmod>2023-01-05</lastmod>
+    <lastmod>2023-01-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -139,7 +148,7 @@
 
   <url>
     <loc>https://wangxi.online/</loc>
-    <lastmod>2023-01-09</lastmod>
+    <lastmod>2023-01-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -147,28 +156,28 @@
   
   <url>
     <loc>https://wangxi.online/tags/hexo/</loc>
-    <lastmod>2023-01-09</lastmod>
+    <lastmod>2023-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://wangxi.online/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-01-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangxi.online/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2023-01-09</lastmod>
+    <lastmod>2023-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://wangxi.online/tags/%E6%97%B6%E4%BA%8B/</loc>
-    <lastmod>2023-01-09</lastmod>
+    <lastmod>2023-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wangxi.online/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2023-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -177,28 +186,28 @@
   
   <url>
     <loc>https://wangxi.online/categories/hexo%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2023-01-09</lastmod>
+    <lastmod>2023-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://wangxi.online/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-01-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangxi.online/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2023-01-09</lastmod>
+    <lastmod>2023-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://wangxi.online/categories/%E6%97%B6%E4%BA%8B/</loc>
-    <lastmod>2023-01-09</lastmod>
+    <lastmod>2023-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wangxi.online/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2023-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
