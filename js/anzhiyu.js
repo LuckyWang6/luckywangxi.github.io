@@ -1,6 +1,6 @@
 var wangxi_musicPlaying = false;
-var wangxi_musicStretch = false;
 var wangxi_musicFirst = false;
+var navMusicEl = document.getElementById("nav-music");
 var wangxi = {
   //切换音乐播放状态
   musicToggle: function (changePaly = true) {
@@ -11,33 +11,29 @@ var wangxi = {
     let msgPlay = '<i class="fa-solid fa-play"></i><span>播放音乐</span>'; // 此處可以更改為你想要顯示的文字
     let msgPause = '<i class="fa-solid fa-pause"></i><span>暂停音乐</span>'; // 同上，但兩處均不建議更改
     if (wangxi_musicPlaying) {
-      document.querySelector("#nav-music").classList.remove("playing");
+      navMusicEl.classList.remove("playing");
       // 修改右键菜单文案为播放
       // document.getElementById("menu-music-toggle").innerHTML = msgPlay;
       document.getElementById("nav-music-hoverTips").innerHTML = "音乐已暂停";
       // document.querySelector("#consoleMusic").classList.remove("on");
       wangxi_musicPlaying = false;
-      document.querySelector("#nav-music").classList.remove("stretch");
-      wangxi_musicStretch = false;
+      navMusicEl.classList.remove("stretch");
     } else {
-      document.querySelector("#nav-music").classList.add("playing");
+      navMusicEl.classList.add("playing");
       // 修改右键菜单文案为暂停
       // document.getElementById("menu-music-toggle").innerHTML = msgPause;
       // document.querySelector("#consoleMusic").classList.add("on");
       wangxi_musicPlaying = true;
-      document.querySelector("#nav-music").classList.add("stretch");
-      wangxi_musicStretch = true;
+      navMusicEl.classList.add("stretch");
     }
     if (changePaly) document.querySelector("#nav-music meting-js").aplayer.toggle();
   },
   // 音乐伸缩
   musicTelescopic: function () {
-    if (wangxi_musicStretch) {
-      document.querySelector("#nav-music").classList.remove("stretch");
-      wangxi_musicStretch = false;
+    if (navMusicEl.classList.contains("stretch")) {
+      navMusicEl.classList.remove("stretch");
     } else {
-      document.querySelector("#nav-music").classList.add("stretch");
-      wangxi_musicStretch = true;
+      navMusicEl.classList.add("stretch");
     }
   },
 

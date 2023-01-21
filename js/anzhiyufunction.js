@@ -4,6 +4,6 @@ function musicBindEvent() {
     wangxi.musicTelescopic();
   });
   document.querySelector("#nav-music .aplayer-button").addEventListener("click", function () {
-    wangxi.musicToggle(false);
+    wangxi.musicToggle(!1);
   });
 }
