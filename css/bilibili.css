@@ -1,7 +1,7 @@
 /*哔哩哔哩视频适配*/
 .aspect-ratio {
     position: relative;
-    width: 90%;
+    width: 100%;
     height: auto;
     padding-bottom: 75%;
     margin: 3% auto;
