@@ -202,14 +202,15 @@ if (true) {
 <div class='checkbox green'><input type="radio" />
             <p>云服务器（可选）</p>
             </div>
-<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">Windows系统</button></li><li class="tab"><button type="button" data-href="#test4-2">服务器Linux</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><h1 id="Node的安装"><a href="#Node的安装" class="headerlink" title="Node的安装"></a>Node的安装</h1><p>打开Node官网，下载和自己系统相配的Node的安装程序，否则会出现安装问题。下载地址：<a target="_blank" rel="noopener" href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> 我个人的版本是v16.18.1<img src="https://cdn.wangxi.online/postimg/node.png" alt=""></p>
-<p>下载后安装，安装的目录可以使用默认目录【C:/Program Files/nodejs/】，也可以自定义路径。</p>
+<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">Windows系统</button></li><li class="tab"><button type="button" data-href="#test4-2">服务器Linux</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><h1 id="Node的安装"><a href="#Node的安装" class="headerlink" title="Node的安装"></a>Node的安装</h1><p>打开Node官网，下载和自己系统相配的Node的安装程序，否则会出现安装问题。下载地址：<a target="_blank" rel="noopener" href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> 我个人的版本是v16.18.1<img src="https://cdn.wangxi.online/postimg/node.png"></p>
+<p>下载后安装，安装的目录可以使用默认目录【C:&#x2F;Program Files&#x2F;nodejs&#x2F;】，也可以自定义路径。</p>
 <p>安装完成后，检查是否安装成功。在键盘按下win + R键，输入CMD，然后回车，打开CMD窗口，执行node -v命令，看到版本信息，则说明安装成功。</p>
 <p>修改npm源。npm下载各种模块，默认是从国外服务器下载，速度较慢，建议配置成淘宝镜像。打开CMD窗口，运行如下命令:</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
 <h1 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h1><p>进入官网：<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">https://git-scm.com/downloads</a> ，由于官网下载太慢可以通过淘宝的开源镜像下载 网址：<a target="_blank" rel="noopener" href="https://registry.npmmirror.com/binary.html?path=git-for-windows/v2.36.1.windows.1/">https://registry.npmmirror.com/binary.html?path=git-for-windows/v2.36.1.windows.1/</a> ，下载版本更具自己的需求选择即可。</p>
-<p><img src="https://cdn.wangxi.online/postimg/git%20install.png" alt=""></p>
-<p>下载后傻瓜式安装Git即可，安装的目录可以使用默认目录【C:/Program Files/Git】，也可以自定义路径。</p>
+<p><img src="https://cdn.wangxi.online/postimg/git%20install.png"></p>
+<p>下载后傻瓜式安装Git即可，安装的目录可以使用默认目录【C:&#x2F;Program Files&#x2F;Git】，也可以自定义路径。</p>
 <p>一共安装了三个软件</p>
 <ul>
 <li><code>Git CMD</code> 是windows 命令行的指令风格</li>
@@ -218,20 +219,23 @@ if (true) {
 </ul>
 <p>常用命令</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config -l  //查看所有配置</span><br><span class="line">git config --system --list //查看系统配置</span><br><span class="line">git config --global --list //查看用户（全局）配置</span><br></pre></td></tr></table></figure>
+
 <p>配置用户名和邮箱</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure>
+
 <p>通过<code>git config -l</code> 检查是否配置成功，至此git安装及配置全部完成。</p>
-<p><img src="https://cdn.wangxi.online/postimg/gitconfig.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/gitconfig.png"></p>
 <h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><p>在您想要存放博客的位置新建一个Hexo文件夹，并在文件夹里右键<code>Git BASH</code>输入如下命令安装Hexo</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
 <p>安装完后输入hexo -v验证是否安装成功。</p>
-<p><img src="https://cdn.wangxi.online/postimg/hexo%20-v.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/hexo%20-v.png"></p>
 <h1 id="Github注册与创建仓库"><a href="#Github注册与创建仓库" class="headerlink" title="Github注册与创建仓库"></a>Github注册与创建仓库</h1><p>进入官网 <a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a></p>
-<p><img src="https://cdn.wangxi.online/postimg/githubregister.png" alt=""></p>
-<p>点击右上角的 Sign up(注册)<br><img src="https://bu.dusays.com/2022/05/12/627d2c05ee628.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/githubregister.png"></p>
+<p>点击右上角的 Sign up(注册)<br><img src="https://bu.dusays.com/2022/05/12/627d2c05ee628.png"></p>
 <p>填写自己的邮箱、密码、用户名等信息，然后用邮箱验证即可完成。</p>
 <p>注册完成后，点击右上角的<code>+</code>按钮，选择<code>New repository</code>，创建一个<code>&lt;用户名&gt;.github.io</code>的仓库。</p>
-<p><img src="https://cdn.wangxi.online/postimg/newrepo.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/newrepo.png"></p>
 <ul>
 <li><p>仓库的格式必须为：&lt;用户名&gt;.github.io</p>
 </li>
@@ -242,38 +246,45 @@ if (true) {
 <li><p>点击 Creat repository 进行创建</p>
 </li>
 </ul>
-<p><img src="https://cdn.wangxi.online/postimg/io.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/io.png"></p>
 <h1 id="连接至Github"><a href="#连接至Github" class="headerlink" title="连接至Github"></a>连接至Github</h1><p>执行以下命令生成ssh公钥，此公钥用于你的计算机连接Github</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure>
+
 <p>之后打开C盘下用户文件夹下的.ssh的文件夹，会看到 id_rsa.pub</p>
-<p><img src="https://cdn.wangxi.online/postimg/idssh.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/idssh.png"></p>
 <p>用记事本打开上述图片中的公钥（id_rsa.pub），复制里面的内容，然后开始在github中配置ssh密钥。</p>
-<p><img src="https://cdn.wangxi.online/postimg/id%20pub.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/id%20pub.png"></p>
 <p>将 SSH KEY 配置到 GitHub，进入github，点击右上角头像 选择<code>settings</code>，进入设置页后选择 <code>SSH and GPG keys</code>，名字随便起，公钥填到<code>Key</code>那一栏。</p>
-<p><img src="https://cdn.wangxi.online/postimg/settingsgit.png" alt=""></p>
-<p><img src="https://cdn.wangxi.online/postimg/ssh%20keys.png" alt=""></p>
-<p><img src="https://cdn.wangxi.online/postimg/paste.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/settingsgit.png"></p>
+<p><img src="https://cdn.wangxi.online/postimg/ssh%20keys.png"></p>
+<p><img src="https://cdn.wangxi.online/postimg/paste.png"></p>
 <p>测试连接，输入以下命令</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.wangxi.online/postimg/successlogin.png" alt=""></p>
+
+<p><img src="https://cdn.wangxi.online/postimg/successlogin.png"></p>
 <p>出现连接到账户的信息，说明已经大功告成，至此完成了环境准备工作。</p>
 <h1 id="初始化-Hexo-项目"><a href="#初始化-Hexo-项目" class="headerlink" title="初始化 Hexo 项目"></a>初始化 Hexo 项目</h1><p>在目标路径（我这里选的路径为【D:\Hexo】）打开Git Bash命令窗口，执行<code>hexo init</code>初始化项目。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
 <p>随后输入npm i 安装相关依赖</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.wangxi.online/postimg/npm%20i.png" alt=""></p>
+
+<p><img src="https://cdn.wangxi.online/postimg/npm%20i.png"></p>
 <p>初始化项目后，<code>Hexo</code>有如下结构：</p>
-<p><img src="https://cdn.wangxi.online/postimg/newhexo.png" alt="">【node_modules】：依赖包<br>【scaffolds】：生成文章的一些模板<br>【source】：用来存放你的文章<br>【themes】：主题<br>【.npmignore】：发布时忽略的文件（可忽略)<br>【_config.landscape.yml】：主题的配置文件<br>【config.yml】：博客的配置文件<br>【package.json】：项目名称、描述、版本、运行和开发等信息</p>
+<p><img src="https://cdn.wangxi.online/postimg/newhexo.png">【node_modules】：依赖包<br>【scaffolds】：生成文章的一些模板<br>【source】：用来存放你的文章<br>【themes】：主题<br>【.npmignore】：发布时忽略的文件（可忽略)<br>【_config.landscape.yml】：主题的配置文件<br>【config.yml】：博客的配置文件<br>【package.json】：项目名称、描述、版本、运行和开发等信息</p>
 <p>输入hexo server或者hexo s 启动项目</p>
-<p><img src="https://cdn.wangxi.online/postimg/hexo%20s.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/hexo%20s.png"></p>
 <p>打开浏览器，输入地址：<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> ，看到下面的效果，说明你的博客已经构建成功了。</p>
-<p><img src="https://cdn.wangxi.online/postimg/defalthexo.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/defalthexo.png"></p>
 <h1 id="将静态博客挂载到-GitHub-Pages"><a href="#将静态博客挂载到-GitHub-Pages" class="headerlink" title="将静态博客挂载到 GitHub Pages"></a>将静态博客挂载到 GitHub Pages</h1><p>安装 hexo-deployer-git</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
 <p>修改 _config.yml 文件<br>在Hexo目录下的_config.yml，就是整个Hexo框架的配置文件了。可以在里面修改大部分的配置。详细可参考官方的<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration">配置描述</a>。<br>修改最后一行的配置，将repository修改为你自己的github项目地址即可，还有分支要改为<code>main</code>代表主分支（注意缩进）。</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">git@github.com:wangxiTest/wangxiTest.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
+
 <p>修改好配置后，运行如下命令，将代码部署到 GitHub（Hexo三连）。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy </span><br></pre></td></tr></table></figure>
+
 <ul>
 <li><p>hexo clean：删除之前生成的文件，若未生成过静态文件，可忽略此命令。</p>
 </li>
@@ -282,14 +293,14 @@ if (true) {
 <li><p>hexo deploy：部署文章，可以用<code>hexo d</code>缩写</p>
 </li>
 </ul>
-<p><img src="https://cdn.wangxi.online/postimg/hexo3%E8%BF%9E.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/hexo3%E8%BF%9E.png"></p>
 <div class="note info simple"><p>注意：deploy时可能要你输入 username 和 password。</p>
 </div>
 
 <p>如果出现<code>Deploy done: git</code>，则说明部署成功了。</p>
-<p><img src="https://cdn.wangxi.online/postimg/deploygit.png" alt=""></p>
-<p>稍等两分钟，打开浏览器访问: <a target="_blank" rel="noopener" href="https://wangxiTest.github.io/">https://wangxiTest.github.io/</a> ，这时候我们就可以看到博客内容了。</p>
-<p><img src="https://cdn.wangxi.online/postimg/wangxitest.github.io.png" alt=""></p>
+<p><img src="https://cdn.wangxi.online/postimg/deploygit.png"></p>
+<p>稍等两分钟，打开浏览器访问: <a target="_blank" rel="noopener" href="https://wangxitest.github.io/">https://wangxiTest.github.io/</a> ，这时候我们就可以看到博客内容了。</p>
+<p><img src="https://cdn.wangxi.online/postimg/wangxitest.github.io.png"></p>
 <h1 id="无法连接至Github的解决方案"><a href="#无法连接至Github的解决方案" class="headerlink" title="无法连接至Github的解决方案"></a>无法连接至Github的解决方案</h1><div class="note danger flat"><p>注意：当你在与Github进行ssh通信时候出现超时或者是连接被关闭的情况，可以尝试以下解决方案。</p>
 </div>
 
