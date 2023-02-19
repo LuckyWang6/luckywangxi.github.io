@@ -18,13 +18,13 @@ https://wangxi.online/message/index.html
 https://wangxi.online/tags/index.html
 https://wangxi.online/
 https://wangxi.online/tags/hexo/
-https://wangxi.online/tags/%E5%AD%A6%E4%B9%A0/
 https://wangxi.online/tags/%E6%97%B6%E4%BA%8B/
+https://wangxi.online/tags/%E5%AD%A6%E4%B9%A0/
 https://wangxi.online/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/
 https://wangxi.online/tags/ChatGPT/
 https://wangxi.online/tags/LOL/
 https://wangxi.online/categories/hexo%E6%90%AD%E5%BB%BA/
-https://wangxi.online/categories/%E5%AD%A6%E4%B9%A0/
 https://wangxi.online/categories/%E6%97%B6%E4%BA%8B/
+https://wangxi.online/categories/%E5%AD%A6%E4%B9%A0/
 https://wangxi.online/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/
 https://wangxi.online/categories/ChatGPT/
